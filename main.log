@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  5 MAR 2026 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  5 MAR 2026 16:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,7 +499,7 @@ File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 18.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 27.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -508,88 +508,88 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -644,7 +644,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 27.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -655,15 +655,15 @@ Package hyperref Info: Link coloring OFF on input line 18.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 
+l.72 
       [1]
 <AppPhotos/sidequest_appstorepage.png, id=20, 644.4075pt x 1394.20876pt>
 File: AppPhotos/sidequest_appstorepage.png Graphic file (type png)
 <use AppPhotos/sidequest_appstorepage.png>
-Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 77.
+Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 86.
 (pdftex.def)             Requested size: 164.41711pt x 355.72063pt.
 
-Underfull \hbox (badness 1360) in paragraph at lines 83--84
+Underfull \hbox (badness 1360) in paragraph at lines 92--93
 []\T1/lmr/m/n/12 SideQuest is a lo-ca-tion and ac-tiv-ity fo-cused photo-
  []
 
@@ -674,190 +674,185 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for C70+gbsn on input line 85.
+LaTeX Font Info:    Trying to load font information for C70+gbsn on input line 94.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
 File: c70gbsn.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 File: c70gbsn.fdx 2021/10/16 4.8.5
 ) [2 <./AppPhotos/sidequest_appstorepage.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 99.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 108.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3]
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 157.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 166.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 157.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 166.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 157.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 166.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 157.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 166.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 157.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 166.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 157.
+(Font)              <10> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 157.
+(Font)              <7> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 157.
+(Font)              <5> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 157.
+(Font)              <12> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 157.
+(Font)              <8> on input line 166.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 157.
+(Font)              <6> on input line 166.
  [4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 <SideQuestArchitectureDiagram.png, id=54, 797.98125pt x 522.95375pt>
 File: SideQuestArchitectureDiagram.png Graphic file (type png)
 <use SideQuestArchitectureDiagram.png>
-Package pdftex.def Info: SideQuestArchitectureDiagram.png  used on input line 197.
+Package pdftex.def Info: SideQuestArchitectureDiagram.png  used on input line 206.
 (pdftex.def)             Requested size: 446.26582pt x 292.46109pt.
  [5] [6 <./SideQuestArchitectureDiagram.png>] [7] [8] [9]
 <TechStackChart.jpg, id=90, 1559.8275pt x 1009.7725pt>
 File: TechStackChart.jpg Graphic file (type jpg)
 <use TechStackChart.jpg>
-Package pdftex.def Info: TechStackChart.jpg  used on input line 302.
+Package pdftex.def Info: TechStackChart.jpg  used on input line 311.
 (pdftex.def)             Requested size: 328.82707pt x 212.8597pt.
  [10]
 <Latex Created Diagrams/08_navigation_graph.pdf, id=97, 714.46121pt x 372.23567pt>
 File: Latex Created Diagrams/08_navigation_graph.pdf Graphic file (type pdf)
 <use Latex Created Diagrams/08_navigation_graph.pdf>
-Package pdftex.def Info: Latex Created Diagrams/08_navigation_graph.pdf  used on input line 314.
+Package pdftex.def Info: Latex Created Diagrams/08_navigation_graph.pdf  used on input line 323.
 (pdftex.def)             Requested size: 446.26582pt x 232.51039pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 324.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 333.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [11 <./TechStackChart.jpg>]
-<Latex Created Diagrams/03_sequence_create_challenge.pdf, id=106, 456.32684pt x 363.42575pt>
+) [11 <./TechStackChart.jpg>] [12 <./Latex Created Diagrams/08_navigation_graph.pdf>]
+<Latex Created Diagrams/03_sequence_create_challenge.pdf, id=150, 456.32684pt x 363.42575pt>
 File: Latex Created Diagrams/03_sequence_create_challenge.pdf Graphic file (type pdf)
 <use Latex Created Diagrams/03_sequence_create_challenge.pdf>
-Package pdftex.def Info: Latex Created Diagrams/03_sequence_create_challenge.pdf  used on input line 333.
+Package pdftex.def Info: Latex Created Diagrams/03_sequence_create_challenge.pdf  used on input line 342.
 (pdftex.def)             Requested size: 446.26582pt x 355.42279pt.
-<Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf, id=107, 470.553pt x 532.71924pt>
+<Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf, id=151, 470.553pt x 532.71924pt>
 File: Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf Graphic file (type pdf)
 <use Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>
-Package pdftex.def Info: Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf  used on input line 340.
-(pdftex.def)             Requested size: 446.26582pt x 505.24315pt.
- [12 <./Latex Created Diagrams/08_navigation_graph.pdf>] [13 <./Latex Created Diagrams/03_sequence_create_challenge.pdf>] [14 <./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>]
-<Latex Created Diagrams/01_domain_data_model.pdf, id=215, 798.96992pt x 366.29346pt>
+Package pdftex.def Info: Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf  used on input line 349.
+(pdftex.def)             Requested size: 328.82707pt x 372.28314pt.
+ [13 <./Latex Created Diagrams/03_sequence_create_challenge.pdf>] [14 <./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>]
+<Latex Created Diagrams/01_domain_data_model.pdf, id=220, 798.96992pt x 366.29346pt>
 File: Latex Created Diagrams/01_domain_data_model.pdf Graphic file (type pdf)
 <use Latex Created Diagrams/01_domain_data_model.pdf>
-Package pdftex.def Info: Latex Created Diagrams/01_domain_data_model.pdf  used on input line 357.
+Package pdftex.def Info: Latex Created Diagrams/01_domain_data_model.pdf  used on input line 366.
 (pdftex.def)             Requested size: 446.26582pt x 204.59755pt.
- [15 <./Latex Created Diagrams/01_domain_data_model.pdf>] [16]
-Overfull \hbox (10.27275pt too wide) in paragraph at lines 383--384
-\T1/lmr/m/n/12 Authentication is han-dled us-ing Fire-base Au-then-ti-ca-tion. Users can sign in via email/password,
- []
-
-[17]
-<UserFeedbackWall.jpeg, id=267, 4047.12pt x 3035.34pt>
+ [15 <./Latex Created Diagrams/01_domain_data_model.pdf>] [16] [17]
+<UserFeedbackWall.jpeg, id=272, 4047.12pt x 3035.34pt>
 File: UserFeedbackWall.jpeg Graphic file (type jpg)
 <use UserFeedbackWall.jpeg>
-Package pdftex.def Info: UserFeedbackWall.jpeg  used on input line 413.
+Package pdftex.def Info: UserFeedbackWall.jpeg  used on input line 424.
 (pdftex.def)             Requested size: 187.89914pt x 140.89174pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []\T1/lmr/m/n/12 Swipe vot-ing con-fu-sion:
  []
 
 [18 <./UserFeedbackWall.jpeg>] [19]
-<RepoCommitDiagram.jpg, id=285, 2421.045pt x 1373.13pt>
+<RepoCommitDiagram.jpg, id=290, 2421.045pt x 1373.13pt>
 File: RepoCommitDiagram.jpg Graphic file (type jpg)
 <use RepoCommitDiagram.jpg>
-Package pdftex.def Info: RepoCommitDiagram.jpg  used on input line 455.
+Package pdftex.def Info: RepoCommitDiagram.jpg  used on input line 466.
 (pdftex.def)             Requested size: 422.77664pt x 239.77754pt.
  [20 <./RepoCommitDiagram.jpg>]
-<OpenWebUI_example.jpg, id=293, 3394.6825pt x 2025.5675pt>
+<OpenWebUI_example.jpg, id=298, 3394.6825pt x 2025.5675pt>
 File: OpenWebUI_example.jpg Graphic file (type jpg)
 <use OpenWebUI_example.jpg>
-Package pdftex.def Info: OpenWebUI_example.jpg  used on input line 480.
+Package pdftex.def Info: OpenWebUI_example.jpg  used on input line 491.
 (pdftex.def)             Requested size: 234.8775pt x 140.1352pt.
  [21 <./OpenWebUI_example.jpg>] [22]
-<ChallengeMap.PNG, id=308, 644.4075pt x 1394.20876pt>
+<ChallengeMap.PNG, id=313, 644.4075pt x 1394.20876pt>
 File: ChallengeMap.PNG Graphic file (type png)
 <use ChallengeMap.PNG>
-Package pdftex.def Info: ChallengeMap.PNG  used on input line 535.
+Package pdftex.def Info: ChallengeMap.PNG  used on input line 546.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<UserProfile.PNG, id=309, 644.4075pt x 1394.20876pt>
+<UserProfile.PNG, id=314, 644.4075pt x 1394.20876pt>
 File: UserProfile.PNG Graphic file (type png)
 <use UserProfile.PNG>
-Package pdftex.def Info: UserProfile.PNG  used on input line 541.
+Package pdftex.def Info: UserProfile.PNG  used on input line 552.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
 File: AppPhotos/sidequest_appstorepage.png Graphic file (type png)
 <use AppPhotos/sidequest_appstorepage.png>
-Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 551.
+Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 562.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Map.PNG, id=310, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Map.PNG, id=315, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Map.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Map.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Map.PNG  used on input line 557.
+Package pdftex.def Info: AppPhotos/Sidequest_Map.PNG  used on input line 568.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Quests.PNG, id=311, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Quests.PNG, id=316, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Quests.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Quests.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Quests.PNG  used on input line 567.
+Package pdftex.def Info: AppPhotos/Sidequest_Quests.PNG  used on input line 578.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_ChallengeCreation.PNG, id=312, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_ChallengeCreation.PNG, id=317, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_ChallengeCreation.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_ChallengeCreation.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_ChallengeCreation.PNG  used on input line 573.
+Package pdftex.def Info: AppPhotos/Sidequest_ChallengeCreation.PNG  used on input line 584.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG, id=313, 644.4075pt x 1394.20876pt>
+<AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG, id=318, 644.4075pt x 1394.20876pt>
 File: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG Graphic file (type png)
 <use AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG>
-Package pdftex.def Info: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG  used on input line 583.
+Package pdftex.def Info: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG  used on input line 594.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_voting.PNG, id=314, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_voting.PNG, id=319, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_voting.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_voting.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_voting.PNG  used on input line 589.
+Package pdftex.def Info: AppPhotos/Sidequest_voting.PNG  used on input line 600.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Share.PNG, id=315, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Share.PNG, id=320, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Share.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Share.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Share.PNG  used on input line 599.
+Package pdftex.def Info: AppPhotos/Sidequest_Share.PNG  used on input line 610.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Friends.PNG, id=316, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Friends.PNG, id=321, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Friends.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Friends.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Friends.PNG  used on input line 605.
+Package pdftex.def Info: AppPhotos/Sidequest_Friends.PNG  used on input line 616.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Profile.PNG, id=317, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Profile.PNG, id=322, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Profile.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Profile.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Profile.PNG  used on input line 613.
+Package pdftex.def Info: AppPhotos/Sidequest_Profile.PNG  used on input line 624.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
 
-Overfull \hbox (1.83687pt too wide) in paragraph at lines 623--623
+Overfull \hbox (1.83687pt too wide) in paragraph at lines 634--634
 \T1/lmr/m/n/12 Abidin, Crys-tal. ^^PVis-i-bil-ity Labour: En-gag-ing with In-flu-encers' Fash-ion Brands and #OOTD
  []
 
 
-Overfull \hbox (12.79369pt too wide) in paragraph at lines 625--625
+Overfull \hbox (12.79369pt too wide) in paragraph at lines 636--636
 \T1/lmr/m/it/12 in Com-put-ing Sys-tems\T1/lmr/m/n/12 , 2014, pp. 2599--2608. https://doi.org/10.1145/2556288.2557342. 
  []
 
-[23] [24 <./ChallengeMap.PNG> <./UserProfile.PNG>] [25 <./AppPhotos/Sidequest_Map.PNG>] [26 <./AppPhotos/Sidequest_Quests.PNG> <./AppPhotos/Sidequest_ChallengeCreation.PNG>] [27 <./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG> <./AppPhotos/Sidequest_voting.PNG>] [28 <./AppPhotos/Sidequest_Share.PNG> <./AppPhotos/Sidequest_Friends.PNG>] [29 <./AppPhotos/Sidequest_Profile.PNG>]
-Overfull \hbox (154.34604pt too wide) in paragraph at lines 629--629
+[23]
+Overfull \hbox (154.34604pt too wide) in paragraph at lines 640--640
 \T1/lmr/m/n/12 Hemment, Drew. ^^PLoca-tive Arts.^^Q \T1/lmr/m/it/12 Leonardo\T1/lmr/m/n/12 , vol. 39, no. 4, 2006, pp. 348--355. https://doi.org/10.1162/leon.2006.39.4.348. 
  []
 
-
-Overfull \hbox (122.87662pt too wide) in paragraph at lines 636--636
+[24 <./ChallengeMap.PNG> <./UserProfile.PNG>] [25 <./AppPhotos/Sidequest_Map.PNG>] [26 <./AppPhotos/Sidequest_Quests.PNG> <./AppPhotos/Sidequest_ChallengeCreation.PNG>]
+Overfull \hbox (122.87662pt too wide) in paragraph at lines 647--647
 \T1/lmr/m/it/12 ence on Hu-man Fac-tors in Com-put-ing Sys-tems\T1/lmr/m/n/12 , 2007, pp. 493--502. https://doi.org/10.1145/1240624.1240704. 
  []
 
-[30] (./main.aux)
+[27 <./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG> <./AppPhotos/Sidequest_voting.PNG>] [28 <./AppPhotos/Sidequest_Share.PNG> <./AppPhotos/Sidequest_Friends.PNG>] [29 <./AppPhotos/Sidequest_Profile.PNG>] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -866,18 +861,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22237 strings out of 467525
- 415297 string characters out of 5418983
- 808240 words of memory out of 5000000
+ 22236 strings out of 467525
+ 415290 string characters out of 5418983
+ 808241 words of memory out of 5000000
  50653 multiletter control sequences out of 15000+600000
  689720 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,13n,104p,1052b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,104p,1354b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (31 pages, 36247050 bytes).
+Output written on main.pdf (30 pages, 36250965 bytes).
 PDF statistics:
  448 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 332 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

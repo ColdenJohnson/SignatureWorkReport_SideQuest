@@ -15,6 +15,15 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.8\baselineskip}
 
+% Encourage large figures to share pages with text (avoid float-only pages).
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.95}
+
 \begin{document}
 \onehalfspacing
 
@@ -321,11 +330,11 @@ SideQuest is built as a full-stack system designed for App Store deployment. Eac
 
 The client application is built using React Native with the Expo framework. React Native allows the same codebase to compile to both iOS and Android, while still rendering native UI components. This is important for two reasons: while SideQuest is currently iOS-first, it can be deployed to Android without any major rewriting of the app. Second, React Native is widely used across both mobile and web ecosystems (React), meaning familiarity with it is valuable and well-supported by community docs and tooling.
 
-Selecting Expo with React Native is standard practice (once React Native has already been chosen), as it significantly accelearates development. In SideQuest, it provides native support for things like camera access, image handling, push notifications, routing, and location services without any special native configuration. The trade-off is reduced access to certain custom native modules, but for our purposes iteration speed and simplicity greatly outweighs the need for deep native customization. We specifically use \texttt{expo-router} for file-based navigation and route organization, as shown in the navigation graph diagram (Fig.~\ref{fig:navigation-graph}).
+Selecting Expo with React Native is standard practice (once React Native has already been chosen), as it significantly accelearates development. In SideQuest, it provides native support for things like camera access, image handling, push notifications, routing, and location services without any special native configuration. The trade-off is reduced access to certain custom native modules, but for our purposes iteration speed and simplicity greatly outweighs the need for deep native customization. One example of these benefits is the use of \texttt{expo-router}, which provides file-based routing and screen organization. Figure~\ref{fig:navigation-graph} shows the resulting navigation graph, including all frontend screens and the main paths users take between them.
 
-The frontend is compiled and distributed through Apple’s ecosystem using Xcode, App Store Connect, and TestFlight. I can confidently say that the most insidious and counterintuive issues are introduced from this ecosystem. Specifically, this includes plist problems, build signing, review cycles, and App Store policies. However, this is an architectural decision that is forced as a prerequisite to publish on the App Store, and so the necessary evil it introduces was accepted.
+The frontend is compiled and distributed through Apple’s ecosystem using Xcode, App Store Connect, and TestFlight. Many of the most opaque and counterintuitive issues arise from the bloat and strange requirements of this ecosystem. Specifically, we consistently dealt with problems in \texttt{plist} files, build signing, review cycles, the CI/CD pipeline, and general App Store policies. However, the decision to use App Store products is forced on us as a prerequisite to publish on teh App Store, and so the necessary evil it introduces was accepted.
 
-Alternative approaches were considered. A fully native Swift implementation would likely give marginally better performance and deeper integration with Apple APIs, but at the cost of longer development time and Android incompatibility. Flutter was also a viable cross-platform option, but React Native’s JavaScript ecosystem and alignment with the broader MERN stack made it more cohesive with backend choices.
+Alternative approaches were considered. A fully native Swift implementation would likely give marginally better performance and deeper integration with Apple APIs, but at the cost of longer development time and no Android compatibility. Flutter was also a viable cross-platform option, but React Native’s JavaScript ecosystem and alignment with the broader MERN stack made React Native the more cohesive choice (same language as backend logic). Though developers may fight against it, as Atwood's law states, ``Any application that can be written in JavaScript, will eventually be written in JavaScript''.
 
 
 \begin{figure}[!htbp]
@@ -335,22 +344,22 @@ Alternative approaches were considered. A fully native Swift implementation woul
   \label{fig:sequence-create-challenge}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[!tb]
   \centering
-  \includegraphics[width=0.95\linewidth]{\detokenize{Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf}}
-  \caption{Sequence diagram: global duel vote token flow.}
+  \includegraphics[width=0.7\linewidth]{\detokenize{Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf}}
+  \caption{Sequence diagram: Duel vote token flow.}
   \label{fig:sequence-global-duel-vote-token}
 \end{figure}
+
+
 \subsection*{2. Backend: Node.js with Express (MERN)}
-The backend is built using Node.js and Express, forming part of the MERN (MongoDB, Express, React, Node) stack.
+The backend is built using Node.js and Express, forming part of the MERN (MongoDB, Express, React, Node) stack. Node.js allows JavaScript to run server-side. Using the same language across frontend and backend reduces context switching and improves development speed. Express is a REST API layer that is simple, flexible, and widely adopted. The primary advantage of this stack is cohesion. React on the frontend and Node/Express on the backend share conceptual patterns (components, middleware, JSON APIs). This makes it easy to reason about how data flows across the system.
 
-Node.js allows JavaScript to run server-side. Using the same language across frontend and backend reduces context switching and improves development speed. Express is a REST API layer that is simple, flexible, and widely adopted.
+Alternative backend frameworks were considered. Python (Flask or Django) would provide strong tooling and readability. Additionally, I have significant prior experience with both Python and Flask, and thus would initially have been much more comfortable with this backend. However, the flexibility and ecosystem alignment of Express made it better suited for rapid iteration and a custom-designed API. A more rigid framework would increase complexity, something against our design philosophy.
 
-The primary advantage of this stack is cohesion. React on the frontend and Node/Express on the backend share conceptual patterns (components, middleware, JSON APIs). This makes it easy to reason about how data flows across the system.
+For an overall sense of the way in which frontend and backend interact, figures~\ref{fig:sequence-create-challenge} and~\ref{fig:sequence-global-duel-vote-token} illustrate examples of client–server interactions. Figure~\ref{fig:sequence-create-challenge} traces the create new challenge flow, wherein user input is sent in a POST API request. The backend then validates, writes to DB, and returns a response, allowing the newly created pin to be displayed to all users. Figure~\ref{fig:sequence-global-duel-vote-token} shows the slightly more complicated 'voting' token flow, during which the user receives a pair of photos to vote on, validated by a minted TTL token from the backend. The vote pair and token minting are fetched on app start using GET \texttt{global\_duel}, randomizing an 'Elo' bucket combination to return from (preferring better photos) and returning a photo pair. Voting then occurs using POST \texttt{vote\_duel\_global}, with the backend consuming the token and persisting to the DB. Invalid tokens are used to enforce hourly voting limits and ensure users are properly authenticated. In addition to error handling, this helps prevent problems similar to that which faced DKUMash: botting of votes will quickly be caught and invalidated.
 
-Alternative backend frameworks were considered. Python (Flask or Django) would provide strong tooling and readability. Additionally, I have significant prior experience with both Python and Flask, and thus am much more comfortable with this type of backend. However, the flexibility and ecosystem alignment of Express made it better suited for rapid iteration and a custom-designed API. A more rigid framework would increase complexity, something against our design philosophy.
-
-The backend enforces server-authoritative logic. All ranking updates (Elo calculations), vote validation, and rate limiting occur server-side. This prevents manipulation from the client and preserves competitive integrity.
+Broadly, the takeaway is that the backend enforces server-authoritative logic. All ranking updates, vote validation, and rate limiting occur server-side. This prevents manipulation from the client and preserves integrity.
 
 \begin{figure}[!htbp]
   \centering
@@ -370,7 +379,9 @@ MongoDB was selected partially due to its generous free tier and ease of cloud d
 
 However, MongoDB is not relational in the traditional SQL sense. To introduce structure and validation, Mongoose is used as an Object Data Modeling (ODM) layer. Mongoose defines schemas, enforces validation rules, and creates relationships between collections. While MongoDB itself does not enforce foreign key constraints, Mongoose allows us to simulate relational structure through references and schema design.
 
-A relational SQL database (ex: PostgreSQL) was considered. SQL databases provide stronger built-in relational guarantees and transactional consistency. However, SideQuest data shape is naturally hierarchical and document shaped, not deeply relational. For example, a given pin is usually fetched as a nested JSON in the API response regardless: thus, the symmetry feels both natural and convenient. Additionally, MongoDB has a faster iteration model, and lets us evolve documents without migrations. With Postgress, schema migrations would be required each time we changed data models, which has been troublesome on past projects. For a rapidly changing product, schema rigidity can slow development.
+A relational SQL database (ex: PostgreSQL) was considered. SQL databases provide stronger built-in relational guarantees and transactional consistency. However, SideQuest data shape is naturally hierarchical and document shaped, not deeply relational. For example, a given pin is usually fetched as a nested JSON in the API response regardless: thus, the symmetry feels both natural and convenient. Additionally, MongoDB has a faster iteration model, and lets us evolve documents without migrations. With Postgress, schema migrations would be required each time we changed data models, which has been troublesome on past projects. With MongoDB, after migration old data can simply be missing from the schema without causing errors, and can be backfilled either with a script or handled through well chosen defaults. For a rapidly changing product, schema rigidity can slow development.
+
+Mongoose defines the MongoDB schema, introducing relational-style structure to the DB (much to the delight of Professor Mustafa Misir). Figure~\ref{fig:domain-data-model} summarizes the core collections and how they reference one another, including user identies, challenges/pins, and interaction records such as votes. Notice how user ID (uid) and pin ID are used as the primary key for most collections. Most relationships are keyed as 1: many (except when normalizing tables, generally keyed in 1:1 relationships). These relationships are important for keeping server-side logic consistent and minimizing DB writes when possible.
 
 \subsubsection*{3.2 Media Storage: Firebase Storage}
 
@@ -380,7 +391,7 @@ Storing images directly inside MongoDB (for example, as binary blobs) would dram
 
 \subsubsection*{3.3 Authentication: Firebase Auth}
 
-Authentication is handled using Firebase Authentication. Users can sign in via email/password, phone (SMS), or Google accounts.
+Authentication is handled using Firebase Authentication. Users can sign in via phone (SMS), email, or Google account.
 
 Implementing authentication from scratch would require handling password hashing, token management, SMS verification infrastructure, and security auditing. Firebase abstracts this complexity while still allowing server-side token verification using Firebase Admin SDK.
 
@@ -388,11 +399,11 @@ All privileged backend routes verify Firebase-issued ID tokens before allowing w
 
 \subsection*{4. Deployment, Containerization, and Testing}
 
-The backend is containerized using Docker. Containerization ensures the application runs identically across development and production environments. Dependencies, Node versions, and environment variables are packaged consistently. A common developer joke captures the problem Docker is meant to solve: a developer's code works locally, but upon pushing to someone else's computer (or prod), it immediately breaks. The developer simply responds, "It works on my machine", and proceeds to ignore the problem, much to the distress of everyone else on the team. Docker is intended to eliminate this problem, by standardizing the execution environment.
+The backend is containerized using Docker.  A common developer joke captures the problem Docker is meant to solve: a developer's code works locally, but upon pushing to someone else's production it immediately breaks. The developer simply shrugs and responds, "It works on my machine", washing his hands of the issue. This is frequently distressing to those impacted by the issue. Docker is intended to eliminate this problem, by standardizing the execution environment. Containerization ensures the application runs identically across development and production environments. Dependencies, Node versions, and environment variables are packaged consistently.
 
-The Docker container is deployed to Google Cloud Run. Cloud Run automatically scales instances based on traffic and provides global accessibility without managing servers manually. Compared to traditional VM hosting, Cloud Run abstracts infrastructure management while still allowing full control over the runtime env.
+In production, the Docker container is deployed to Google Cloud Run. Cloud Run automatically scales instances based on traffic and provides global accessibility without managing servers manually. Compared to traditional VM hosting, Cloud Run abstracts infrastructure management while still allowing full control over the runtime environment.
 
-Alternative deployment options included Heroku or traditional virtual machines. However, Docker + Cloud Run provided greater control and scalability without excessive complexity. Additionally, the CI/CD pipeline was incredibly easy to set up, and the service is generally very straightforward to work with.
+Alternative deployment options include Heroku or traditional virtual machines. However, Docker + Cloud Run provided greater control and scalability without excessive complexity. Additionally, the CI/CD pipeline was incredibly easy to set up, and the service is generally very straightforward to work with.
 
 For API validation and debugging, Postman is used to test endpoints independently of the frontend. This allows for isolating backend issues without UI interference. Jest is used for unit testing critical backend logic.
 
