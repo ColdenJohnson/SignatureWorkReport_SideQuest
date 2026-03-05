@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772700189.00331 "/Users/colden/Downloads/Signature Work/main.tex" "main.pdf" "main" 1772700204.96995 0
-  "/Users/colden/Downloads/Signature Work/main.tex" 1772700188.74355 70831 470edf67513a35b188367527771da0a3 ""
+["pdflatex"] 1772722522.89708 "/Users/colden/Downloads/Signature Work/main.tex" "main.pdf" "main" 1772722535.88408 0
+  "/Users/colden/Downloads/Signature Work/main.tex" 1772722509.45379 73407 d9a5249eb8350f8e077d369bf7d47ba7 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -200,7 +200,6 @@
   "AppPhotos/Sidequest_Share.PNG" 1772688746 4191143 b94b0de4f016cd7f86cc6bacdd002d28 ""
   "AppPhotos/Sidequest_voting.PNG" 1772688746 7317375 6fc769e4a5613cd75864b92664f3ea8a ""
   "AppPhotos/sidequest_appstorepage.png" 1772688746 1309298 55441f9a99e5f7d4dc980758f7a6715a ""
-  "ChallengeMap.PNG" 1772688745 1093165 20209c858023e31f88c91d1bbde53547 ""
   "Latex Created Diagrams/01_domain_data_model.pdf" 1772688746 87597 047744acc2ab742842b678a7a80bef21 ""
   "Latex Created Diagrams/03_sequence_create_challenge.pdf" 1772688746 71020 1f210990c26233ed1db2f98866d660d0 ""
   "Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf" 1772688745 77445 b558f7e7ba0ce0e6b4094861724b0a45 ""
@@ -210,10 +209,9 @@
   "SideQuestArchitectureDiagram.png" 1772688745 1409738 d6be15d0e7a4d82f45fc7bea50085025 ""
   "TechStackChart.jpg" 1772688745 237129 c8b9e3d40991f0ca7ab1fd9140443393 ""
   "UserFeedbackWall.jpeg" 1772688745 2478725 4d6eaec16a3273fb63d4ac5546ad8b91 ""
-  "UserProfile.PNG" 1772688745 664504 12f125caf36baa616b1c85970994c36d ""
-  "main.aux" 1772700204.83339 7598 8776a734ac0b1d97fda9d37c0bd61d87 "pdflatex"
-  "main.out" 1772700189.62393 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1772700188.74355 70831 470edf67513a35b188367527771da0a3 ""
+  "main.aux" 1772722535.76608 6870 aff237b0293a92600b092a070e156683 "pdflatex"
+  "main.out" 1772722523.37753 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1772722509.45379 73407 d9a5249eb8350f8e077d369bf7d47ba7 ""
   (generated)
   "main.aux"
   "main.log"

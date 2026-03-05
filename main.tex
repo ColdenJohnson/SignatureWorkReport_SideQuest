@@ -60,8 +60,6 @@ SideQuest is a location based photo-challenge app designed to encourage engageme
 
 \textbf{Contribution:} First-of-a-kind application design of a novel concept and full stack buildout.
 
-
-
 % =========================
 % ACKNOWLEDGEMENTS
 % =========================
@@ -79,15 +77,6 @@ Most consumer social apps optimize for one thing: keeping you looking at a scree
 SideQuest targets that gap. It is built on the idea that seeking discomfort and novelty is the best thing someone can do to enrich their life. SideQuest aims to shift behavior away from passive scrolling and toward sharing social exploration in the real world.
 
 \subsection*{Project Intent: What is SideQuest?}
-
-\begin{wrapfigure}[23]{r}{0.35\textwidth}
-  \vspace{-3.7\baselineskip}
-  \centering
-  \includegraphics[width=\linewidth]{AppPhotos/sidequest_appstorepage}
-  \caption{SideQuest App Store listing.}
-  \label{fig:appstore-listing}
-  \vspace{-1.0\baselineskip}
-\end{wrapfigure}
 
 SideQuest is a location and activity focused photo-challenge app. It encourages creative and novel engagement with real-world places through social gamification.
 
@@ -410,10 +399,10 @@ For API validation and debugging, Postman is used to test endpoints independentl
 \subsection*{5. User Testing and Iterative Validation}
 
 \begin{wrapfigure}[9]{r}{0.4\linewidth}
-  \vspace{-2\baselineskip}
+  \vspace{-5\baselineskip}
   \centering
   \includegraphics[width=\linewidth, angle=-90]{UserFeedbackWall.jpeg}
-  \caption{Whiteboard backlog used to track open issues.}
+  \caption{Whiteboard backlog tracking issues.}
   \label{fig:user-feedback-wall}
 \end{wrapfigure}
 
@@ -498,81 +487,45 @@ In short, AI is an important aspect of modern development, and we have put a sig
 % FINAL OUTCOME
 % =========================
 \section*{FINAL OUTCOME}
-\subsection*{5.1 Concept statement}
-SideQuest is a creative platform that transforms spaces into living, community-built creative artifacts. A user stands somewhere, captures a moment, adds a short prompt, and plants that creative challenge onto a map. Over time, this space becomes a shared public square shaped by many contributors. 
+\subsection*{Concept statement}
+In a world of passive doomscrolling, SideQuest explores an alternative model of social media. The concept investigates how digital systems can encourage active engagement with the physical world rather than passive media consumption. SideQuest users attach prompts to places, inviting others to share their own interpretations and contributions, gradually turning locations into evolving, community-built creative artifacts. Instead of scrolling, SideQuest users Quest with friends, try new things, and compete together.
 
-SideQuest is 'the anti-Instagram': while many social platforms reward passive scrolling, SideQuest asks users to explore and create.
+Beyond conceptual innovation, SideQuest is implemented as a full-stack iOS application published to the App Store and supported by production-grade architecture. Only a few weeks after launch, it already has attracted ~30 daily active users, providing early evidence that the design functions under real usage conditions.
 
-Beyond being an innovative concept, SideQuest is a successful example of a full-stack iOS application published to the App Store and supported by production-grade architecture. The system manages authentication, media storage, geospatial correctness, and user interaction. It has X daily active users, providing evidence that the design holds under real usage conditions.
-
-\subsection*{5.2 What is delivered (artifact inventory)}
-This project delivers a complete set of artifacts suitable for a creative practice Signature Work:
+\subsection*{What is delivered (artifact inventory)}
 
 \textbf{Primary artifact}
 \begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
-  \item SideQuest iOS App
+  \item SideQuest iOS App; \href{https://apps.apple.com/us/app/sidequest-explore-challenge/id6753264647}{Link}
 \end{itemize}
 
 \textbf{Supporting artifacts}
 \begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
+  \item GitHub repositories (source code, history, documentation):\href{https://github.com/ColdenJohnson}{github.com/ColdenJohnson}, \href{https://github.com/ColdenJohnson/geoapp}{Frontend (public)}, Backend (private), \href{https://github.com/ColdenJohnson/SignatureWorkReport_SideQuest/tree/main}{Report}
   \item Deployed backend (Dockerized API on Google Cloud Run)
-  \item GitHub repository (source code, history, documentation)
-  \item Design + testing documentation (TestFlight feedback notes; iterative change history)
-  \item Evaluation evidence (DAU trend snapshots; usability findings; bug/issue log excerpts)
-  \item Screenshots and visual documentation (final UI states for major flows)
-  \item Architecture diagrams
+  \item Evaluation evidence (Appendix)
+  \item Screenshots and visual documentation (Current UI states for major flows)
+  \item Architecture diagrams of tech stack, relational DB, Frontend-Backend interactions, etc.
 \end{itemize}
-
-\subsection*{5.4 Walkthrough of the final user experience}
-
-
-<TODO: Upload screenshots here>
-Let's look at our friend Krishna's user journey:
-
-
--onboarding + SMS
-- live map screen
-- challenge creation and contribution
--voting, viewing, immersion
--competition and motivation (gamification, duels)
--adding friends
-
-\subsection*{5.5 Evidence of impact}
-<TODO:  DAUs, Example challenge pin, outcome metrics table>
-
-<TODO: Reflection, Bibliography, Prof. Feedback>
-
-\begin{figure}[!htbp]
-  \centering
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{ChallengeMap.PNG}
-    \caption{Challenge map landing page. \textit{(Landing page map view with pin uploads around DKU created by app users.)}}
-    \label{fig:challenge-map}
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{UserProfile.PNG}
-    \caption{User profile with friends. \textit{(Current profile view, showing the friends system and user identity details.)}}
-    \label{fig:user-profile}
-  \end{minipage}
-\end{figure}
 
 \begin{figure}[!htbp]
   \centering
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/sidequest_appstorepage.png}
-    \caption{SideQuest App Store page. \textit{(Public listing for SideQuest: Explore \& Challenge.)}}
-    \label{fig:appphotos-appstore-page}
+    \caption{App Store Listing.}
+    \label{fig:appphotos-appstore}
   \end{minipage}\hfill
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Map.PNG}
-    \caption{In-app map view. \textit{(Primary live map screen used to discover nearby Quests.)}}
-    \label{fig:appphotos-map}
+    \caption{Landing Page Map.}
+    \label{fig:appphotos-landingpage}
   \end{minipage}
 \end{figure}
+
+
+
 
 \begin{figure}[!htbp]
   \centering
@@ -590,6 +543,20 @@ Let's look at our friend Krishna's user journey:
   \end{minipage}
 \end{figure}
 
+\subsection*{Walkthrough of the final user experience}
+
+This section walks through the SideQuest user experience via a ``day in the life'' flow of our beta tester Krishna.
+
+\paragraph{Step 1: Discovery and installation (App Store).}
+Krishna discovers SideQuest on the App Store, either being directly sent a link from a friend using the app, or seeing someone post a Quest prompt and wanting to participate. Krishna installs the app from the iOS App Store \textit{(Fig.~\ref{fig:appphotos-appstore})}.
+
+\paragraph{Step 2: First launch and onboarding (SMS + permissions).}
+Krishna opens the app and enters his phone number for SMS verification to create a stable user identity. A unique human readable handle is also auto-generated for him, that he can change later on his profile page.
+
+\paragraph{Step 3: Landing on the Quest map.}
+When Krishna lands on the map \textit{(Fig.~\ref{fig:appphotos-landingpage})}, he immediately sees pins for nearby Quests. Each Quest shows a prompt authored by another user. Tapping on these Quests invites Krishna to participate if eligible. From the map, Krishna can directly act without moving through menus. The two bottom-right action buttons are the create entry points, they support (1) making a brand-new Quest at Krishna's current location, or (2) adding a photo contribution to an existing nearby Quest.
+
+
 \begin{figure}[!htbp]
   \centering
   \begin{minipage}[t]{0.48\linewidth}
@@ -606,27 +573,41 @@ Let's look at our friend Krishna's user journey:
   \end{minipage}
 \end{figure}
 
-\begin{figure}[!htbp]
+\paragraph{Step 4: Browsing global Quests (no location gating)}
+If Krishna wants to participate with friends who live far away, or under a specific Quest that can be completed no matter where he is in the world (like take a picture with your breakfast this morning), he switches to the Quests tab \textit{(Fig.~\ref{fig:appphotos-quests})}. This feed contains global Quests, enabling participation from anywhere. Krishna left swipes through the deck to browse prompts for something that interests him \textit{(Fig.~\ref{fig:appphotos-challenge-appears})}. Krishna sees a Quest he likes and swipes right to select it, and can immediately start uploading a photo to that Quest. If Krishna likes a Quest but cannot contribute yet (ex: wrong moment, wants to do it later), he wipes up to save it for later and return when ready.
+
+\paragraph{Step 5: Creating a new Quest.}
+Krishna next goes to study for his upcoming final exams. He wants to share this with his friends, so from the homescreen presses the 'New Quest' button, and uploads a photo of himself studying with the prompt "Your finals study setup" \textit{(Fig.~\ref{fig:appphotos-challenge-creation})}. Because he chooses to make this Quest public, any user can now participate by uploading a picture of them completing the same activity, from anywhere in the world. If he chose to make it private, only his friends would be allowed to participate. If he chose to location lock it, then only people in the same location could participate.
+
+\paragraph{Step 6: Voting in duels.}
+To expose users to other people's photos in a fun way, SideQuest uses head-to-head voting duels. Krishna clicks on the duel screen and begins swiping to pick his favorite photos \textit{(Fig.~\ref{fig:appphotos-voting})}. Over time, higher-ranked submissions bubble upward: they appear more frequently and the best-ranked photo becomes the Quest's cover photo.
+
+\paragraph{Step 7: Sharing to friends.}
+Krishna wants to see what his friends are up to, and compete in Quests together. he shares his profile from the sharing view \textit{(Fig.~\ref{fig:appphotos-share})}. His friends are routed to install SideQuest, and after install are automatically able to add Krishna as a friend.
+
+\paragraph{Step 8: Friends system.}
+Finally, Krishna can add new friends directly inside the app \textit{(Fig.~\ref{fig:appphotos-friends})}. Friends matter because the app is fundamentally social, and supports privacy controls: Krishna can mark his profile as private to compete only with his friends and allow more intimate participation. Krishna edits his personal profile to show off his achievements and other personal information to his friends \textit{(Fig.~\ref{fig:appphotos-profile})}.
+
+\begin{figure}[!t]
   \centering
-  \begin{minipage}[t]{0.48\linewidth}
+  \begin{minipage}[t]{0.32\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Share.PNG}
-    \caption{Quest sharing view. \textit{(Sharing interface to distribute challenges with friends.)}}
+    \caption{Quest sharing view.}
     \label{fig:appphotos-share}
   \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
+  \begin{minipage}[t]{0.32\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Friends.PNG}
-    \caption{Friends system UI. \textit{(Social graph and friend challenge interactions.)}}
+    \caption{Friends system UI.}
     \label{fig:appphotos-friends}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.32\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Profile.PNG}
+    \caption{Profile view.}
+    \label{fig:appphotos-profile}
   \end{minipage}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.48\linewidth]{AppPhotos/Sidequest_Profile.PNG}
-  \caption{Profile view. \textit{(User profile page with identity and participation details.)}}
-  \label{fig:appphotos-profile}
 \end{figure}
 
 \section*{REFERENCES}
