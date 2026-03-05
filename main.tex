@@ -409,53 +409,62 @@ For API validation and debugging, Postman is used to test endpoints independentl
 
 \subsection*{5. User Testing and Iterative Validation}
 
+\begin{wrapfigure}[9]{r}{0.4\linewidth}
+  \vspace{-2\baselineskip}
+  \centering
+  \includegraphics[width=\linewidth, angle=-90]{UserFeedbackWall.jpeg}
+  \caption{Whiteboard backlog used to track open issues.}
+  \label{fig:user-feedback-wall}
+\end{wrapfigure}
+
 SideQuest’s architecture decisions are heavily driven by user feedback and TestFlight deployment.
 
 \subsubsection*{5.1 TestFlight as Formal Evaluation Channel}
 
-TestFlight builds were released in rapid cycles. Each release included observed task flows, post-session qualitative feedback, and bug reproduction attempts. This method allows for controlled evaluation of user UX smoothness, upload reliability, and issue detection.
+TestFlight builds were released in rapid cycles. Each release included observed task flows, post-session qualitative feedback, and bug reproduction. This method allows for controlled evaluation of user UX smoothness, upload reliability, and issue detection.
 
 \subsubsection*{5.2 Selected User Feedback and Responses}
 
-The documented user feedback revealed abundant major issue categories. We noted qualitative feedback both on a 'product backlog' whiteboard \textit{(Fig.~\ref{fig:user-feedback-wall})}, as well as in a shared Obsidian notes app.
+The documented user feedback revealed abundant major issue categories. We noted qualitative feedback both on a 'product backlog' whiteboard \textit{(Fig.~\ref{fig:user-feedback-wall})}, as well as in a shared Obsidian notes app. A small selection of user problems and resolutions are included in the below table (Fig.~\ref{fig:user-feedback-table})
 
-\begin{figure}[!htbp]
+
+\begin{figure}[!b]
   \centering
-  \includegraphics[width=0.4\linewidth, angle=-90]{UserFeedbackWall.jpeg}
-  \caption{User feedback wall / product backlog snapshot. \textit{(Whiteboard backlog used to track open issues.)}}
-  \label{fig:user-feedback-wall}
+  \renewcommand{\arraystretch}{1.25}
+  \begin{tabular}{|p{0.32\linewidth}|p{0.62\linewidth}|}
+  \hline
+  \textbf{Identified problem} & \textbf{Resolution} \\
+  \hline
+  Swipe voting: flicker during swipes. & Image prefetch introduced; optimistic UI updates \\
+  \hline
+  Upload reliability issues: unclear upload state. & Promise resolution tracking; UI toast (notification message) on success \\
+  \hline
+  Aesthetic issues: poor cohesiveness. & Unified palette implementation; shared component primitives. \\
+  \hline
+  Elo integrity: ranking manipulation. & Token-based duel confirmation; rate limits and hourly caps. \\
+  \hline
+  \end{tabular}
+  \caption{Selected user feedback issues and implemented resolutions.}
+  \label{fig:user-feedback-table}
 \end{figure}
-
-\renewcommand{\arraystretch}{1.25}
-\begin{center}
-\begin{tabular}{|p{0.32\linewidth}|p{0.62\linewidth}|}
-\hline
-\textbf{Identified problem} & \textbf{Resolution} \\
-\hline
-Swipe voting confusion: flicker during swipes. & DuelDeck animation logic decoupled from vote submission timing; image prefetching introduced; hard locks on gestures removed to make UI more responsive. \\
-\hline
-Upload reliability issues: repeated presses needed; unclear upload state. & Explicit upload state management; promise resolution tracking; UI toast (notification message) on success; guards to prevent duplicate submissions. \\
-\hline
-Aesthetic issues: poor cohesiveness. & Centralized token system (spacing, radii, typography); unified palette implementation; shared component primitives; removal of ad-hoc inline styles; still being improved. \\
-\hline
-Elo integrity: ranking manipulation. & Server-side vote validation; token-based duel confirmation; rate limits and hourly caps. \\
-\hline
-\end{tabular}
-\end{center}
 
 \subsection*{6. Design Methods }
 
-As we have already talked extensively about theory, this section aims to discuss specific process innovations.
+As we have already talked extensively about theory, this section aims to discuss specific process innovations and implementation.
 
 \subsubsection*{3.1 Production Prototyping}
 
-Instead of designing visuals first and engineering later, SideQuest follows a 'capability-first' method. Roughly, this means that system functionality is built out first (backend), and UI is designed around these system constraints. This allows for:
+Instead of designing visuals first and engineering later, SideQuest follows a 'capability-first' method. Roughly, this means that system functionality is built out first (backend), and UI is designed around system constraints. This allows for simple UI iteration with confidence and catching concurrency bugs early.
 
-Simple UI iteration with confidence
+\subsubsection*{3.2 Agile Development }
 
-Catching concurrency bugs early
+Development prioritized constant iterative improvement based on user feedback, following the Agile development philosophy. Each cycle began with a TestFlight release, followed by direct observation of user interaction (Fig. ~\ref{fig:agile-cycle}).
 
-\subsubsection*{3.2 Git-Based Dev }
+As issues emerged, we revisited architectural components in real time. It is important to have little emotional attachment to the current state of the project, and readily refactor when necessary. In several cases, this resulted in major overhauls of the app. After implementing changes, a new build was released and the cycle repeated. Over time, this iterative pattern functions like gradient descent optimization, as iterative releases gradually move the user toward a smoother product experience.
+
+This process assumes that all of our assumptions are incorrect. Design and architecture remains highly fluid.
+
+\subsubsection*{3.3 Git-Based Dev }
 
 Git is simply incredible, and deserves an honorable mention. Git was used for version control and structured iteration.
 
@@ -468,23 +477,15 @@ Minimal-diff commits were important for identifying isolated behavior changes. O
   \label{fig:repo-commit-diagram}
 \end{figure}
 
-\subsubsection*{3.3 Agile Development }
-
-Development prioritized constant iterative improvement based on user feedback, following the Agile development philosophy. Each cycle began with a TestFlight release, followed by direct observation of user interaction.
-
-As issues emerged, we revisited architectural components in real time. It was important to have little emotional attachment to the current state of the project, and readily refactor when necessary. In several cases, this resulted in major overhauls of the app. After implementing changes, a new build was released and the cycle repeated. Over time, this iterative pattern functions like gradient descent optimization, as iterative releases gradually move the user toward a smoother product experience.
-
-This process assumes that all of our assumptions are incorrect. Design and architecture remains highly fluid.
-
 \subsection*{7. AI Usage In Modern Development }
 
-AI usage in modern app development could be an entire paper on its own. That said, we think it is instructive to talk briefly about the ways we're using AI in our workflows and how it assists with architectural judgement.
+AI usage in modern app development is an entire paper on its own. That said, it is instructive to talk briefly about the ways we're using AI in our workflows and how it assists with architectural judgement.
 
 We use primarily Codex 5.3 for simple implementation-related coding tasks. Architectural decisions are typically informed using a mix of Claude and ChatGPT (along with docs/example GitHubs). This separation is relatively strict, as models perform best when given well-scoped problems. In our workflow, we have found that spending the majority of time upfront thinking about architecture results in far easier implementation later on.
 
-We maintain an extensive custom prompt and model library for recurring tasks. For example, our `summary' task is adapted from a leaked Claude Code system summary template, and is used to prevent context overload during extended terminal sessions. Context management more broadly is critical. To address this, we use a combination of MCP servers for scoped context exposure, deep research for highly complex decisions, and manual identification of relevant documentation and code snippets when pursuing specific directions. In addition, we run several custom model configurations within a local Open WebUI instance connected to OpenRouter \textit{(see Fig.~\ref{fig:openwebui-example})}. These custom models allow for targeting specific jobs/recurring problem categories (for example, dealing with Elo/ranking logic or writing README documentation).
+We maintain an extensive custom prompt and model library for recurring tasks. For example, our `summary' task is adapted from a leaked Claude Code summary template, and is used to prevent context overload during extended terminal sessions. Context management more broadly is critical. To address this, we use a combination of MCP servers for scoped context exposure, deep research for highly complex decisions, and manual identification of relevant documentation and code snippets when pursuing specific directions. In addition, we run several custom model configurations within a local Open WebUI instance connected to OpenRouter \textit{(see Fig.~\ref{fig:openwebui-example})}. These custom models allow for targeting specific jobs/recurring problem categories (for example, dealing with Elo/ranking logic or writing README documentation).
 
-In short, AI is an important aspect of modern app development, and we have put a significant amount of energy into setting up appropriate workflows to fully take advantage of this.
+In short, AI is an important aspect of modern development, and we have put a significant amount of energy into setting up appropriate workflows to fully take advantage of this.
 
 \begin{figure}[!htbp]
   \centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  5 MAR 2026 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  5 MAR 2026 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,105 +754,101 @@ File: Latex Created Diagrams/01_domain_data_model.pdf Graphic file (type pdf)
 <use Latex Created Diagrams/01_domain_data_model.pdf>
 Package pdftex.def Info: Latex Created Diagrams/01_domain_data_model.pdf  used on input line 366.
 (pdftex.def)             Requested size: 446.26582pt x 204.59755pt.
- [15 <./Latex Created Diagrams/01_domain_data_model.pdf>] [16] [17]
-<UserFeedbackWall.jpeg, id=272, 4047.12pt x 3035.34pt>
+ [15 <./Latex Created Diagrams/01_domain_data_model.pdf>] [16]
+<UserFeedbackWall.jpeg, id=265, 4047.12pt x 3035.34pt>
 File: UserFeedbackWall.jpeg Graphic file (type jpg)
 <use UserFeedbackWall.jpeg>
-Package pdftex.def Info: UserFeedbackWall.jpeg  used on input line 424.
+Package pdftex.def Info: UserFeedbackWall.jpeg  used on input line 415.
 (pdftex.def)             Requested size: 187.89914pt x 140.89174pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
-[]\T1/lmr/m/n/12 Swipe vot-ing con-fu-sion:
- []
-
-[18 <./UserFeedbackWall.jpeg>] [19]
-<RepoCommitDiagram.jpg, id=290, 2421.045pt x 1373.13pt>
+ [17] [18 <./UserFeedbackWall.jpeg>] [19]
+<RepoCommitDiagram.jpg, id=294, 2421.045pt x 1373.13pt>
 File: RepoCommitDiagram.jpg Graphic file (type jpg)
 <use RepoCommitDiagram.jpg>
-Package pdftex.def Info: RepoCommitDiagram.jpg  used on input line 466.
+Package pdftex.def Info: RepoCommitDiagram.jpg  used on input line 475.
 (pdftex.def)             Requested size: 422.77664pt x 239.77754pt.
  [20 <./RepoCommitDiagram.jpg>]
-<OpenWebUI_example.jpg, id=298, 3394.6825pt x 2025.5675pt>
+<OpenWebUI_example.jpg, id=303, 3394.6825pt x 2025.5675pt>
 File: OpenWebUI_example.jpg Graphic file (type jpg)
 <use OpenWebUI_example.jpg>
-Package pdftex.def Info: OpenWebUI_example.jpg  used on input line 491.
+Package pdftex.def Info: OpenWebUI_example.jpg  used on input line 492.
 (pdftex.def)             Requested size: 234.8775pt x 140.1352pt.
- [21 <./OpenWebUI_example.jpg>] [22]
-<ChallengeMap.PNG, id=313, 644.4075pt x 1394.20876pt>
+ [21 <./OpenWebUI_example.jpg>]
+<ChallengeMap.PNG, id=311, 644.4075pt x 1394.20876pt>
 File: ChallengeMap.PNG Graphic file (type png)
 <use ChallengeMap.PNG>
-Package pdftex.def Info: ChallengeMap.PNG  used on input line 546.
+Package pdftex.def Info: ChallengeMap.PNG  used on input line 547.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<UserProfile.PNG, id=314, 644.4075pt x 1394.20876pt>
+<UserProfile.PNG, id=312, 644.4075pt x 1394.20876pt>
 File: UserProfile.PNG Graphic file (type png)
 <use UserProfile.PNG>
-Package pdftex.def Info: UserProfile.PNG  used on input line 552.
+Package pdftex.def Info: UserProfile.PNG  used on input line 553.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
+ [22]
 File: AppPhotos/sidequest_appstorepage.png Graphic file (type png)
 <use AppPhotos/sidequest_appstorepage.png>
-Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 562.
+Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 563.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Map.PNG, id=315, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Map.PNG, id=320, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Map.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Map.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Map.PNG  used on input line 568.
+Package pdftex.def Info: AppPhotos/Sidequest_Map.PNG  used on input line 569.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Quests.PNG, id=316, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Quests.PNG, id=321, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Quests.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Quests.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Quests.PNG  used on input line 578.
+Package pdftex.def Info: AppPhotos/Sidequest_Quests.PNG  used on input line 579.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_ChallengeCreation.PNG, id=317, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_ChallengeCreation.PNG, id=322, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_ChallengeCreation.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_ChallengeCreation.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_ChallengeCreation.PNG  used on input line 584.
+Package pdftex.def Info: AppPhotos/Sidequest_ChallengeCreation.PNG  used on input line 585.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG, id=318, 644.4075pt x 1394.20876pt>
+<AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG, id=323, 644.4075pt x 1394.20876pt>
 File: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG Graphic file (type png)
 <use AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG>
-Package pdftex.def Info: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG  used on input line 594.
+Package pdftex.def Info: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG  used on input line 595.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_voting.PNG, id=319, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_voting.PNG, id=324, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_voting.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_voting.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_voting.PNG  used on input line 600.
+Package pdftex.def Info: AppPhotos/Sidequest_voting.PNG  used on input line 601.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Share.PNG, id=320, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Share.PNG, id=325, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Share.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Share.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Share.PNG  used on input line 610.
+Package pdftex.def Info: AppPhotos/Sidequest_Share.PNG  used on input line 611.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Friends.PNG, id=321, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Friends.PNG, id=326, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Friends.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Friends.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Friends.PNG  used on input line 616.
+Package pdftex.def Info: AppPhotos/Sidequest_Friends.PNG  used on input line 617.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Profile.PNG, id=322, 644.4075pt x 1394.20876pt>
+<AppPhotos/Sidequest_Profile.PNG, id=327, 644.4075pt x 1394.20876pt>
 File: AppPhotos/Sidequest_Profile.PNG Graphic file (type png)
 <use AppPhotos/Sidequest_Profile.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Profile.PNG  used on input line 624.
+Package pdftex.def Info: AppPhotos/Sidequest_Profile.PNG  used on input line 625.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
 
-Overfull \hbox (1.83687pt too wide) in paragraph at lines 634--634
+Overfull \hbox (1.83687pt too wide) in paragraph at lines 635--635
 \T1/lmr/m/n/12 Abidin, Crys-tal. ^^PVis-i-bil-ity Labour: En-gag-ing with In-flu-encers' Fash-ion Brands and #OOTD
  []
 
-
-Overfull \hbox (12.79369pt too wide) in paragraph at lines 636--636
+[23 <./ChallengeMap.PNG> <./UserProfile.PNG>] [24 <./AppPhotos/Sidequest_Map.PNG>]
+Overfull \hbox (12.79369pt too wide) in paragraph at lines 637--637
 \T1/lmr/m/it/12 in Com-put-ing Sys-tems\T1/lmr/m/n/12 , 2014, pp. 2599--2608. https://doi.org/10.1145/2556288.2557342. 
  []
 
-[23]
-Overfull \hbox (154.34604pt too wide) in paragraph at lines 640--640
+[25 <./AppPhotos/Sidequest_Quests.PNG> <./AppPhotos/Sidequest_ChallengeCreation.PNG>] [26 <./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG> <./AppPhotos/Sidequest_voting.PNG>] [27 <./AppPhotos/Sidequest_Share.PNG> <./AppPhotos/Sidequest_Friends.PNG>]
+Overfull \hbox (154.34604pt too wide) in paragraph at lines 641--641
 \T1/lmr/m/n/12 Hemment, Drew. ^^PLoca-tive Arts.^^Q \T1/lmr/m/it/12 Leonardo\T1/lmr/m/n/12 , vol. 39, no. 4, 2006, pp. 348--355. https://doi.org/10.1162/leon.2006.39.4.348. 
  []
 
-[24 <./ChallengeMap.PNG> <./UserProfile.PNG>] [25 <./AppPhotos/Sidequest_Map.PNG>] [26 <./AppPhotos/Sidequest_Quests.PNG> <./AppPhotos/Sidequest_ChallengeCreation.PNG>]
-Overfull \hbox (122.87662pt too wide) in paragraph at lines 647--647
+[28 <./AppPhotos/Sidequest_Profile.PNG>]
+Overfull \hbox (122.87662pt too wide) in paragraph at lines 648--648
 \T1/lmr/m/it/12 ence on Hu-man Fac-tors in Com-put-ing Sys-tems\T1/lmr/m/n/12 , 2007, pp. 493--502. https://doi.org/10.1145/1240624.1240704. 
  []
 
-[27 <./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG> <./AppPhotos/Sidequest_voting.PNG>] [28 <./AppPhotos/Sidequest_Share.PNG> <./AppPhotos/Sidequest_Friends.PNG>] [29 <./AppPhotos/Sidequest_Profile.PNG>] (./main.aux)
+[29] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -862,17 +858,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  22236 strings out of 467525
- 415290 string characters out of 5418983
- 808241 words of memory out of 5000000
- 50653 multiletter control sequences out of 15000+600000
+ 415268 string characters out of 5418983
+ 808270 words of memory out of 5000000
+ 50652 multiletter control sequences out of 15000+600000
  689720 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,13n,104p,1354b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (30 pages, 36250965 bytes).
+Output written on main.pdf (30 pages, 36250829 bytes).
 PDF statistics:
- 448 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
