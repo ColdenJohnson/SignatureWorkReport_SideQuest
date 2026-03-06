@@ -25,32 +25,68 @@
 \renewcommand{\floatpagefraction}{0.95}
 
 \begin{document}
+% Front matter page numbers in italics
+\renewcommand{\thepage}{\textit{\roman{page}}}
 \onehalfspacing
+
+% Forward by DKU
+
+\begin{titlepage}
+\thispagestyle{empty}
+
+Background:  Duke Kunshan University (DKU) is an interdisciplinary institution that grants dual undergraduate degrees, an MOE Chinese degree and a degree from Duke University in Durham, United States. The principal structure of DKU majors is robustly interdisciplinary. No student confines their study to a single discipline (for example, biology or economics). Instead, all students engage in broad inquiry related to a subject or question (for example, political economy or global health) and take a wide variety of courses related to that area (for example, in public policy, history, ethics, or economics). As a result, our graduates are prepared to engage in a wide variety of inquiries using multiple methodologies to address complex issues that require interdisciplinary approaches.  
+
+This has implications for our vision and expectations of undergraduate theses and design projects, which reflect this broad interdisciplinary training. At DKU, every student completes a two-year project known as signature work which consists of multiple interconnected parts including thematic courses, experiential learning, capstones, and a final product. It seeks to integrate students’ interdisciplinary educational experience and culminates in the creation of a product in a scholarly, creative, or applied nature in leu of an undergraduate thesis or design required by JED. Because DKU encourages students to cultivate their independence and creativity as one of its institutional student learning outcomes, the student-led signature work projects often reflect students’ own particular interdisciplinary interests and training.  In addition, signature work has an intensive emphasis on problem-solving and skill-development which is much needed for any interdisciplinary inquiry; thus, students’ final products are evidence of transferrable skills that students have acquired and demonstrated through the 2-year program, rather than content knowledge narrowly defined by disciplinary training.
+  
+In sum, while the Chinese major declared with any given student might be construed narrowly, the experience of our students is much broader—and intentionally so.  This is a distinctive feature of our curriculum, and this distinctiveness results in broadly interdisciplinary submissions from our graduates’ submitting theses or design projects. We have designed this to prepare our students for a wide variety of graduate programs in China and the West, where interdisciplinary training is a competitive advantage.
+
+  
+\end{titlepage}
+
 
 % =========================
 % TITLE PAGE
 % =========================
 \begin{titlepage}
   \centering
-  \vspace*{1in}
+  \vspace*{0cm}
 
-  {\Large \textbf{SIGNATURE WORK FINAL PAPER}\par}
-  \vspace{0.5\baselineskip}
-  {(Creative Practice: iOS App Design)\par}
+  {\Large \textbf{SideQuest: Full-Stack Product Development}\par}
+  {\large \textit{Envisioning an Alternative Model of Social Media}\par}
+  
+  \vspace*{0.5cm}
 
-  \vspace{1.5in}
+  by\\
+  Colden Johnson
 
-  {\Large \textbf{SIDEQUEST: Full Stack Application Development}\par}
-  \vspace{0.5\baselineskip}
-  {\large \textit{iOS app design through iterative product principles}\par}
+  \vspace{1.5cm}
+
+  Signature Work Product, in partial fulfilment of the Duke Kunshan University Undergraduate Degree Program
+
+  \vspace{2.5cm}
+
+  March 8, 2026
+
+  \vspace{2.5cm}
+
+  Signature Work Program\\ 
+  Duke Kunshan University
+
+
 
   \vfill
+  \begin{flushleft}
+  \textbf{APPROVALS}\\
+  \rule{10cm}{0.4pt}\\
+  Jiang Long, Senior Lecturer in Computer Science, Duke Kunshan University
+  \end{flushleft}
+
 \end{titlepage}
 
 % =========================
 % ABSTRACT
 % =========================
-\section*{ABSTRACT}
+\section{ABSTRACT}
 SideQuest is a location based photo-challenge app designed to encourage engagement with real-world places through gamification and social interaction. The project addresses a gap in mainstream social media apps: digital posting is rarely tied to physical context, and ``creation'' is often reduced to passive consumption loops. SideQuest uses 'Quest' prompts, location-based photo capture, and meaning-making through gamification to encourage user engagement. The app architecture broadly follows the MERN tech stack, and was developed through iterative user-centered prototyping and formal TestFlight evaluation, combining qualitative feedback and issue tracking. After only a month of release, SideQuest has a dedicated group of 30 daily active users (DAU), enabling continuous app design under real usage conditions. The final product is a first-of-a-kind full stack application available on the App Store, that replaces passive scrolling by enabling users to get out and Quest.
 
 
@@ -60,23 +96,36 @@ SideQuest is a location based photo-challenge app designed to encourage engageme
 
 \textbf{Contribution:} First-of-a-kind application design of a novel concept and full stack buildout.
 
+\clearpage
+
 % =========================
 % ACKNOWLEDGEMENTS
 % =========================
-\section*{ACKNOWLEDGEMENTS}
+\section{ACKNOWLEDGEMENTS}
 First and foremost, I would like to thank my mentor Professor Jiang Long, for his willingness to provide support wherever the development process took us. The success of this project would not have been possible without his consistent support and engagement. Thank you also to my co-founder Michael Cornell, who willingly stayed awake many a late night debugging code (and especially doing battle with the Apple ecosystem). Thanks to Teohan 'Dino' Blind for coming up with the name 'SideQuest', and in doing so finally helping us escape the matrix. Thank you as well to Krishna Thiagarajan, who I view as the user persona for the type of person who loves the app, and who gave endless suggestions in the development process. Finally, thank you to our Beta test users, including Thomas Boyle, Ethan 'Cobbe' Deal, Zoya Hussein Abbas, Kailani Peng Wang, Mason Swayne, Katherine Cornell, and many, many others.
 
 We also acknowledge the valuable work of the many open source tools that made this project possible, including React Native, Expo, Node.js, Express, MongoDB, Mongoose, Docker, Jest, and as always a great deal of special love for Git.
 
+\clearpage
+\setcounter{tocdepth}{2}
+\tableofcontents
+\clearpage
+
+\listoffigures
+\clearpage
 % =========================
 % INTRODUCTION
 % =========================
-\section*{INTRODUCTION}
+% Switch to normal page numbers for main content
+\clearpage
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+\section{INTRODUCTION}
 Most consumer social apps optimize for one thing: keeping you looking at a screen. Photos and short-form content are abundant, but they are broadly damaging and addictive for people who use them (Bucher, 2012; Abidin, 2016), and are rarely designed to make people do anything in the physical world. Location, when it appears at all, is typically treated as passive metadata (a tag), not as an active ingredient that shapes what you create, where you go, and who you meet. At the same time, many location-based apps that do motivate active movement (navigation, reviews) tend to be utility-driven, leaving little room for user-focused creativity. The result is a gap: there are few apps that encourage users to take positive actions in the real world, while also encouraging participation through social gamification.
 
 SideQuest targets that gap. It is built on the idea that seeking discomfort and novelty is the best thing someone can do to enrich their life. SideQuest aims to shift behavior away from passive scrolling and toward sharing social exploration in the real world.
 
-\subsection*{Project Intent: What is SideQuest?}
+\subsection{Project Intent: What is SideQuest?}
 
 SideQuest is a location and activity focused photo-challenge app. It encourages creative and novel engagement with real-world places through social gamification.
 
@@ -90,7 +139,9 @@ SideQuest delivers a creative design project along the entire product axis, incl
 
 SideQuest is available for download on the App Store \textit{(Fig.~\ref{fig:appstore-listing})}. We encourage readers to download the app on iOS by searching "SideQuest: Explore \& Challenge". Note that a VPN is needed when in China to use the app (including for phone number registration).
 
-\subsection*{Design Philosophy}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
+\subsection{Design Philosophy}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
 
 SideQuest's UX behavior is developed using a user-centered, iterative philosophy common in modern product design/HCI (Human Computer Interaction). Simply, this approach strives to build prototypes early, test with real users, and ship improvments based on user data, based loosely on the Agile design philosophy (Fig. ~\ref{fig:agile-cycle}). Two beliefs drive this approach:
 
@@ -153,11 +204,11 @@ SideQuest's UX behavior is developed using a user-centered, iterative philosophy
 
   \end{tikzpicture}%
   }
-  \caption{Agile manifesto-inspired workflow in SideQuest: weekly sprint loop from design to deployment.}
+  \caption[Agile Dev]{Agile manifesto-inspired workflow (1 week cycle).}
   \label{fig:agile-cycle}
 \end{figure}
 
-\subsubsection*{User Feedback Gathering}
+\subsubsection{User Feedback Gathering}
 
 To constantly create an updated feature backlog and prioritize issues, we relied mainly on three testing channels:
 
@@ -167,7 +218,10 @@ To constantly create an updated feature backlog and prioritize issues, we relied
   \item \textbf{Deployment Behavioral Validation:} With a stable group of daily active users (DAU), we monitor daily usage of the app to assess 'ecological validity' and guide what features are lacking in subsequent releases.
 \end{itemize}
 
-\subsection*{Guiding Questions}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
+\subsection{Guiding Questions}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
+
 \begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
   \item What architecture is required to support a production-grade app published to the App Store?
   \item What does a product manager's role look like, and how should user feedback contribute to the overall design of a product?
@@ -176,7 +230,7 @@ To constantly create an updated feature backlog and prioritize issues, we relied
   \item What does working in a startup environment feel like, and is this something I would like to explore more in the future?
 \end{itemize}
 
-\subsection*{Technical Architecture}
+\subsection{Technical Architecture}
 SideQuest's technical architecture is by far the most time-consuming aspect of the project, and significant effort goes into publishing a reliable, secure, and bug-free app to the App Store. For the technically inclined reader, an introductory overview is included here, and discussed in more detail in subsequent sections. \textit{(Fig.~\ref{fig:system-architecture})}:
 
 \begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
@@ -193,14 +247,14 @@ SideQuest's technical architecture is by far the most time-consuming aspect of t
 \begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.95\linewidth]{SideQuestArchitectureDiagram.png}
-  \caption{System architecture diagram. \textit{(High-level view of SideQuest key services)}}
+  \caption[System Architecture Diagram]{System architecture diagram. \textit{(High-level view of SideQuest key services)}}
   \label{fig:system-architecture}
 \end{figure}
 
 % TODO: Make a simplified diagram for up here and a detailed one for the technical methods section.
 
 
-\subsection*{Significance}
+\subsection{Significance}
 This project is significant for three main reasons. First, it explores a novel app concept aimed at freeing users from passive consumption loops pervasive in modern society. This claim is supported by early adoption and continued use among a group of active users.
 
 Technically, the project delivers a production-grade full-stack architecture capable of supporting a real App Store product. Successful deployment of this nature is exceedingly rare for a signature work product, and demonstrates technical competence across mobile development, backend systems, databases, and frontend UI design.
@@ -211,7 +265,7 @@ Finally, it demonstrates practical product leadership, following a user-centered
 % =========================
 % MEDIA AND LITERATURE REVIEW
 % =========================
-\section*{MEDIA AND LITERATURE REVIEW}
+\section{MEDIA AND LITERATURE REVIEW}
 \subsection*{Overview}
 This review establishes the conceptual and practical foundation for SideQuest by examining prior work in location-based media, social photo-sharing platforms, gamification and social comparison, and iterative, user-centered design practices. Rather than surveying all adjacent domains, this review focuses on precedents that directly inform the project's core claim: that encouraging creative participation in a specific physical place encourages active engagement over passive consumption. Each subsection concludes with some concrete implications for product design.
 
@@ -295,14 +349,7 @@ This review establishes both the theoretical and process-oriented foundation for
 % Process, Material, and Methods
 % =========================
 
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.7\linewidth]{TechStackChart.jpg}
-  \caption{Tech stack overview. \textit{(Core client, backend, and infrastructure components.)}}
-  \label{fig:tech-stack}
-\end{figure}
-
-\section*{System Architecture and Design Methods}
+\section{SYSTEM ARCHITECTURE AND DESIGN}
 
 SideQuest is built as a full-stack system designed for App Store deployment. Each layer of the tech stack was chosen based on trade-offs between iteration speed, scalability, simplicity, and ecosystem familiarity. This section walks through -- and to an extent justifies -- each part of the system: frontend, backend, auth and data, and deployment.
 
@@ -310,12 +357,12 @@ SideQuest is built as a full-stack system designed for App Store deployment. Eac
 \begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.95\linewidth]{\detokenize{Latex Created Diagrams/08_navigation_graph.pdf}}
-  \caption{Navigation graph diagram.}
+  \caption[App Navigation Graph]{Navigation graph.}
   \label{fig:navigation-graph}
 \end{figure}
 
 
-\subsection*{1. Frontend: React Native with Expo}
+\subsection{Frontend: React Native with Expo}
 
 The client application is built using React Native with the Expo framework. React Native allows the same codebase to compile to both iOS and Android, while still rendering native UI components. This is important for two reasons: while SideQuest is currently iOS-first, it can be deployed to Android without any major rewriting of the app. Second, React Native is widely used across both mobile and web ecosystems (React), meaning familiarity with it is valuable and well-supported by community docs and tooling.
 
@@ -341,7 +388,7 @@ Alternative approaches were considered. A fully native Swift implementation woul
 \end{figure}
 
 
-\subsection*{2. Backend: Node.js with Express (MERN)}
+\subsection{Backend: Node.js with Express (MERN)}
 The backend is built using Node.js and Express, forming part of the MERN (MongoDB, Express, React, Node) stack. Node.js allows JavaScript to run server-side. Using the same language across frontend and backend reduces context switching and improves development speed. Express is a REST API layer that is simple, flexible, and widely adopted. The primary advantage of this stack is cohesion. React on the frontend and Node/Express on the backend share conceptual patterns (components, middleware, JSON APIs). This makes it easy to reason about how data flows across the system.
 
 Alternative backend frameworks were considered. Python (Flask or Django) would provide strong tooling and readability. Additionally, I have significant prior experience with both Python and Flask, and thus would initially have been much more comfortable with this backend. However, the flexibility and ecosystem alignment of Express made it better suited for rapid iteration and a custom-designed API. A more rigid framework would increase complexity, something against our design philosophy.
@@ -353,14 +400,14 @@ Broadly, the takeaway is that the backend enforces server-authoritative logic. A
 \begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.95\linewidth]{\detokenize{Latex Created Diagrams/01_domain_data_model.pdf}}
-  \caption{Domain data model diagram.}
+  \caption{Domain data model.}
   \label{fig:domain-data-model}
 \end{figure}
 
 
-\subsection*{3. Data Architecture and Authentication}
+\subsection{Database and Authentication}
 
-\subsubsection*{3.1 Database: MongoDB Atlas + Mongoose}
+\subsubsection{Database: MongoDB Atlas + Mongoose}
 
 SideQuest uses MongoDB Atlas as its primary database. MongoDB is a document-oriented database, meaning it stores JSON-like documents rather than strictly relational tables. This allows for flexible schema evolution, which was valuable during early development when data models changed frequently.
 
@@ -372,13 +419,13 @@ A relational SQL database (ex: PostgreSQL) was considered. SQL databases provide
 
 Mongoose defines the MongoDB schema, introducing relational-style structure to the DB (much to the delight of Professor Mustafa Misir). Figure~\ref{fig:domain-data-model} summarizes the core collections and how they reference one another, including user identies, challenges/pins, and interaction records such as votes. Notice how user ID (uid) and pin ID are used as the primary key for most collections. Most relationships are keyed as 1: many (except when normalizing tables, generally keyed in 1:1 relationships). These relationships are important for keeping server-side logic consistent and minimizing DB writes when possible.
 
-\subsubsection*{3.2 Media Storage: Firebase Storage}
+\subsubsection{Media Storage: Firebase Storage}
 
 Images are not stored directly in MongoDB. Instead, image files are uploaded to Firebase Storage, and only their URIs are stored in the database.
 
 Storing images directly inside MongoDB (for example, as binary blobs) would dramatically increase database size and degrade performance. Databases are optimized for structured data, not large media objects. Separating media storage from structured data is standard practice in production systems. Firebase Storage provides scalable object storage optimized for large files. This separation keeps the database efficient and independent.
 
-\subsubsection*{3.3 Authentication: Firebase Auth}
+\subsubsection{Authentication: Firebase Auth}
 
 Authentication is handled using Firebase Authentication. Users can sign in via phone (SMS), email, or Google account.
 
@@ -386,7 +433,7 @@ Implementing authentication from scratch would require handling password hashing
 
 All privileged backend routes verify Firebase-issued ID tokens before allowing writes. This ensures that authentication is also enforced server-side, securing server routes.
 
-\subsection*{4. Deployment, Containerization, and Testing}
+\subsection{Deployment, Containerization, and Testing}
 
 The backend is containerized using Docker.  A common developer joke captures the problem Docker is meant to solve: a developer's code works locally, but upon pushing to someone else's production it immediately breaks. The developer simply shrugs and responds, "It works on my machine", washing his hands of the issue. This is frequently distressing to those impacted by the issue. Docker is intended to eliminate this problem, by standardizing the execution environment. Containerization ensures the application runs identically across development and production environments. Dependencies, Node versions, and environment variables are packaged consistently.
 
@@ -396,7 +443,9 @@ Alternative deployment options include Heroku or traditional virtual machines. H
 
 For API validation and debugging, Postman is used to test endpoints independently of the frontend. This allows for isolating backend issues without UI interference. Jest is used for unit testing critical backend logic.
 
-\subsection*{5. User Testing and Iterative Validation}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
+\subsection{User Testing and Iteration}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
 
 \begin{wrapfigure}[9]{r}{0.4\linewidth}
   \vspace{-5\baselineskip}
@@ -408,11 +457,11 @@ For API validation and debugging, Postman is used to test endpoints independentl
 
 SideQuest’s architecture decisions are heavily driven by user feedback and TestFlight deployment.
 
-\subsubsection*{5.1 TestFlight as Formal Evaluation Channel}
+\subsubsection{TestFlight as Formal Evaluation Channel}
 
 TestFlight builds were released in rapid cycles. Each release included observed task flows, post-session qualitative feedback, and bug reproduction. This method allows for controlled evaluation of user UX smoothness, upload reliability, and issue detection.
 
-\subsubsection*{5.2 Selected User Feedback and Responses}
+\subsubsection{Selected User Feedback and Responses}
 
 The documented user feedback revealed abundant major issue categories. We noted qualitative feedback both on a 'product backlog' whiteboard \textit{(Fig.~\ref{fig:user-feedback-wall})}, as well as in a shared Obsidian notes app. A small selection of user problems and resolutions are included in the below table (Fig.~\ref{fig:user-feedback-table})
 
@@ -433,19 +482,19 @@ The documented user feedback revealed abundant major issue categories. We noted 
   Elo integrity: ranking manipulation. & Token-based duel confirmation; rate limits and hourly caps. \\
   \hline
   \end{tabular}
-  \caption{Selected user feedback issues and implemented resolutions.}
+  \caption[User Feedback Table]{Selected user feedback issues and implemented resolutions.}
   \label{fig:user-feedback-table}
 \end{figure}
 
-\subsection*{6. Design Methods }
+\subsection{Design Methods }
 
 As we have already talked extensively about theory, this section aims to discuss specific process innovations and implementation.
 
-\subsubsection*{3.1 Production Prototyping}
+\subsubsection{Production Prototyping}
 
 Instead of designing visuals first and engineering later, SideQuest follows a 'capability-first' method. Roughly, this means that system functionality is built out first (backend), and UI is designed around system constraints. This allows for simple UI iteration with confidence and catching concurrency bugs early.
 
-\subsubsection*{3.2 Agile Development }
+\subsubsection{Agile Development }
 
 Development prioritized constant iterative improvement based on user feedback, following the Agile development philosophy. Each cycle began with a TestFlight release, followed by direct observation of user interaction (Fig. ~\ref{fig:agile-cycle}).
 
@@ -453,7 +502,7 @@ As issues emerged, we revisited architectural components in real time. It is imp
 
 This process assumes that all of our assumptions are incorrect. Design and architecture remains highly fluid.
 
-\subsubsection*{3.3 Git-Based Dev }
+\subsubsection{Git-Based Dev }
 
 Git is simply incredible, and deserves an honorable mention. Git was used for version control and structured iteration.
 
@@ -461,12 +510,13 @@ Minimal-diff commits were important for identifying isolated behavior changes. O
 
 \begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.9\linewidth]{RepoCommitDiagram.jpg}
-  \caption{Gource Git commit visualization with multiple contributors and versioning.}
+  \caption[Gource Git Commits]{Gource Git commit visualization with multiple contributors and versioning.}
   \label{fig:repo-commit-diagram}
 \end{figure}
 
-\subsection*{7. AI Usage In Modern Development }
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
+\subsection{AI Usage In Modern Development }
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
 
 AI usage in modern app development is an entire paper on its own. That said, it is instructive to talk briefly about the ways we're using AI in our workflows and how it assists with architectural judgement.
 
@@ -479,20 +529,27 @@ In short, AI is an important aspect of modern development, and we have put a sig
 \begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.5\linewidth]{OpenWebUI_example.jpg}
-  \caption{Open WebUI local model workflow. \textit{Example of custom model config used for scoped, recurring docs querying/generation.}}
+  \caption[Open WebUI Local Models]{Open WebUI local model workflow. \textit{Example of custom model config used for scoped, recurring docs querying/generation.}}
   \label{fig:openwebui-example}
 \end{figure}
 
 % =========================
 % FINAL OUTCOME
 % =========================
-\section*{FINAL OUTCOME}
-\subsection*{Concept statement}
+\section{FINAL OUTCOME}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
+\subsection{Concept statement}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+
+
 In a world of passive doomscrolling, SideQuest explores an alternative model of social media. The concept investigates how digital systems can encourage active engagement with the physical world rather than passive media consumption. SideQuest users attach prompts to places, inviting others to share their own interpretations and contributions, gradually turning locations into evolving, community-built creative artifacts. Instead of scrolling, SideQuest users Quest with friends, try new things, and compete together.
 
 Beyond conceptual innovation, SideQuest is implemented as a full-stack iOS application published to the App Store and supported by production-grade architecture. Only a few weeks after launch, it already has attracted ~30 daily active users, providing early evidence that the design functions under real usage conditions.
 
-\subsection*{What is delivered (artifact inventory)}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
+\subsection{What is delivered (artifact inventory)}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
 
 \textbf{Primary artifact}
 \begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
@@ -532,18 +589,18 @@ Beyond conceptual innovation, SideQuest is implemented as a full-stack iOS appli
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Quests.PNG}
-    \caption{Quests feed view. \textit{(Quest browsing interface for challenge discovery and participation.)}}
+    \caption[Quests Feed View.]{Quests feed view. \textit{(Quest browsing interface for challenge discovery and participation.)}}
     \label{fig:appphotos-quests}
   \end{minipage}\hfill
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/Sidequest_ChallengeCreation.PNG}
-    \caption{Challenge creation flow. \textit{(UI for creating a new Quest with image and prompt.)}}
+    \caption[Challenge Creation Flow]{Challenge creation flow. \textit{(UI for creating a new Quest with image and prompt.)}}
     \label{fig:appphotos-challenge-creation}
   \end{minipage}
 \end{figure}
 
-\subsection*{Walkthrough of the final user experience}
+\subsection{User Experience Walkthrough}
 
 This section walks through the SideQuest user experience via a ``day in the life'' flow of our beta tester Krishna.
 
@@ -562,13 +619,13 @@ When Krishna lands on the map \textit{(Fig.~\ref{fig:appphotos-landingpage})}, h
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG}
-    \caption{Challenge appears in Quest list. \textit{(Newly created challenge surfaced to other users in the feed.)}}
+    \caption[Challenge in Quest List]{Challenge appears in Quest list. \textit{(Newly created challenge surfaced to other users in the feed.)}}
     \label{fig:appphotos-challenge-appears}
   \end{minipage}\hfill
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\linewidth]{AppPhotos/Sidequest_voting.PNG}
-    \caption{Voting and duel screen. \textit{(Head-to-head voting interface for community ranking.)}}
+    \caption[Voting and Duel Screen]{Voting and duel screen. \textit{(Head-to-head voting interface for community ranking.)}}
     \label{fig:appphotos-voting}
   \end{minipage}
 \end{figure}
@@ -610,7 +667,7 @@ Finally, Krishna can add new friends directly inside the app \textit{(Fig.~\ref{
   \end{minipage}
 \end{figure}
 
-\section*{REFERENCES}
+\section{REFERENCES}
 
 {\setlength{\parindent}{0pt}%
 \setlength{\parskip}{0.6\baselineskip}%
@@ -631,316 +688,13 @@ Finally, Krishna can add new friends directly inside the app \textit{(Fig.~\ref{
 \mlaentry{Zimmerman, John, Jodi Forlizzi, and Shelley Evenson. “Research through Design as a Method for Interaction Design Research in HCI.” \textit{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}, 2007, pp. 493--502. https://doi.org/10.1145/1240624.1240704.}
 }
 
-\end{document}
+\section{APPENDIX}
 
-\begin{figure}[!htbp]
+\begin{figure}[!tb]
   \centering
-  \includegraphics[width=0.7\linewidth]{FrontendStructureChart.jpg}
-  \caption{Frontend structure chart. \textit{(High-level organization of the React Native app.)}}
-  \label{fig:frontend-structure}
+  \includegraphics[width=0.7\linewidth]{TechStackChart.jpg}
+  \caption[Tech Stack Table]{Tech stack overview. \textit{(Core client, backend, and infrastructure components.)}}
+  \label{fig:tech-stack}
 \end{figure}
-
-\subsection*{2. Backend: Node.js with Express (MERN)}
-
-The backend is built using Node.js and Express, forming part of the MERN (MongoDB, Express, React, Node) stack.
-
-Node.js allows JavaScript to run server-side. Using the same language across frontend and backend reduces context switching and improves development speed. Express is a REST API layer that is simple, flexible, and widely adopted.
-
-The primary advantage of this stack is cohesion. React on the frontend and Node/Express on the backend share conceptual patterns (components, middleware, JSON APIs). This makes it easy to reason about how data flows across the system.
-
-Alternative backend frameworks were considered. Python (Flask or Django) would provide strong tooling and readability. Additionally, I have significant prior experience with both Python and Flask, and thus am much more comfortable with this type of backend. However, the flexibility and ecosystem alignment of Express made it better suited for rapid iteration and a custom-designed API. A more rigid framework would increase complexity, something against our design philosophy.
-
-The backend enforces server-authoritative logic. All ranking updates (Elo calculations), vote validation, and rate limiting occur server-side. This prevents manipulation from the client and preserves competitive integrity.
-
-\subsection*{3. Data Architecture and Authentication}
-
-\subsubsection*{3.1 Database: MongoDB Atlas + Mongoose}
-
-SideQuest uses MongoDB Atlas as its primary database. MongoDB is a document-oriented database, meaning it stores JSON-like documents rather than strictly relational tables. This allows for flexible schema evolution, which was valuable during early development when data models changed frequently.
-
-MongoDB was selected partially due to its generous free tier and ease of cloud deployment. Atlas provides managed hosting, backups, and scaling without requiring infrastructure management.
-
-However, MongoDB is not relational in the traditional SQL sense. To introduce structure and validation, Mongoose is used as an Object Data Modeling (ODM) layer. Mongoose defines schemas, enforces validation rules, and creates relationships between collections. While MongoDB itself does not enforce foreign key constraints, Mongoose allows us to simulate relational structure through references and schema design.
-
-A relational SQL database (ex: PostgreSQL) was considered. SQL databases provide stronger built-in relational guarantees and transactional consistency. However, SideQuest data shape is naturally hierarchical and document shaped, not deeply relational. For example, a given pin is usually fetched as a nested JSON in the API response regardless: thus, the symmetry feels both natural and convenient. Additionally, MongoDB has a faster iteration model, and lets us evolve documents without migrations. With Postgress, schema migrations would be required each time we changed data models, which has been troublesome on past projects. For a rapidly changing product, schema rigidity can slow development.
-
-\subsubsection*{3.2 Media Storage: Firebase Storage}
-
-Images are not stored directly in MongoDB. Instead, image files are uploaded to Firebase Storage, and only their URIs are stored in the database.
-
-Storing images directly inside MongoDB (for example, as binary blobs) would dramatically increase database size and degrade performance. Databases are optimized for structured data, not large media objects. Separating media storage from structured data is standard practice in production systems. Firebase Storage provides scalable object storage optimized for large files. This separation keeps the database efficient and independent.
-
-\subsubsection*{3.3 Authentication: Firebase Auth}
-
-Authentication is handled using Firebase Authentication. Users can sign in via email/password, phone (SMS), or Google accounts.
-
-Implementing authentication from scratch would require handling password hashing, token management, SMS verification infrastructure, and security auditing. Firebase abstracts this complexity while still allowing server-side token verification using Firebase Admin SDK.
-
-All privileged backend routes verify Firebase-issued ID tokens before allowing writes. This ensures that authentication is also enforced server-side, securing server routes.
-
-\subsection*{4. Deployment, Containerization, and Testing}
-
-The backend is containerized using Docker. Containerization ensures the application runs identically across development and production environments. Dependencies, Node versions, and environment variables are packaged consistently. A common developer joke captures the problem Docker is meant to solve: a developer's code works locally, but upon pushing to someone else's computer (or prod), it immediately breaks. The developer simply responds, "It works on my machine", and proceeds to ignore the problem, much to the distress of everyone else on the team. Docker is intended to eliminate this problem, by standardizing the execution environment.
-
-The Docker container is deployed to Google Cloud Run. Cloud Run automatically scales instances based on traffic and provides global accessibility without managing servers manually. Compared to traditional VM hosting, Cloud Run abstracts infrastructure management while still allowing full control over the runtime env.
-
-Alternative deployment options included Heroku or traditional virtual machines. However, Docker + Cloud Run provided greater control and scalability without excessive complexity. Additionally, the CI/CD pipeline was incredibly easy to set up, and the service is generally very straightforward to work with.
-
-For API validation and debugging, Postman is used to test endpoints independently of the frontend. This allows for isolating backend issues without UI interference. Jest is used for unit testing critical backend logic.
-
-\subsection*{5. User Testing and Iterative Validation}
-
-SideQuest’s architecture decisions are heavily driven by user feedback and TestFlight deployment.
-
-\subsubsection*{5.1 TestFlight as Formal Evaluation Channel}
-
-TestFlight builds were released in rapid cycles. Each release included observed task flows, post-session qualitative feedback, and bug reproduction attempts. This method allows for controlled evaluation of user UX smoothness, upload reliability, and issue detection.
-
-\subsubsection*{5.2 Selected User Feedback and Responses}
-
-The documented user feedback revealed abundant major issue categories. We noted qualitative feedback both on a 'product backlog' whiteboard \textit{(Fig.~\ref{fig:user-feedback-wall})}, as well as in a shared Obsidian notes app.
-
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.4\linewidth, angle=-90]{UserFeedbackWall.jpeg}
-  \caption{User feedback wall / product backlog snapshot. \textit{(Whiteboard backlog used to track open issues.)}}
-  \label{fig:user-feedback-wall}
-\end{figure}
-
-\renewcommand{\arraystretch}{1.25}
-\begin{center}
-\begin{tabular}{|p{0.32\linewidth}|p{0.62\linewidth}|}
-\hline
-\textbf{Identified problem} & \textbf{Resolution} \\
-\hline
-Swipe voting confusion: flicker during swipes. & DuelDeck animation logic decoupled from vote submission timing; image prefetching introduced; hard locks on gestures removed to make UI more responsive. \\
-\hline
-Upload reliability issues: repeated presses needed; unclear upload state. & Explicit upload state management; promise resolution tracking; UI toast (notification message) on success; guards to prevent duplicate submissions. \\
-\hline
-Aesthetic issues: poor cohesiveness. & Centralized token system (spacing, radii, typography); unified palette implementation; shared component primitives; removal of ad-hoc inline styles; still being improved. \\
-\hline
-Elo integrity: ranking manipulation. & Server-side vote validation; token-based duel confirmation; rate limits and hourly caps. \\
-\hline
-\end{tabular}
-\end{center}
-
-\subsection*{6. Design Methods }
-
-As we have already talked extensively about theory, this section aims to discuss specific process innovations.
-
-\subsubsection*{3.1 Production Prototyping}
-
-Instead of designing visuals first and engineering later, SideQuest follows a 'capability-first' method. Roughly, this means that system functionality is built out first (backend), and UI is designed around these system constraints. This allows for:
-
-Simple UI iteration with confidence
-
-Catching concurrency bugs early
-
-\subsubsection*{3.2 Git-Based Dev }
-
-Git is simply incredible, and deserves an honorable mention. Git was used for version control and structured iteration.
-
-Minimal-diff commits were important for identifying isolated behavior changes. One example of this is when fixing a particularly nasty UI bug related to issues only on every 3rd served photo, it was necessary to revert commits back several weeks to localize when the problem originated. Only by reverting to an earlier version was the problem identified and solved. Commit history also serves as a repository of product evolution and architectural maturation \textit{(Fig.~\ref{fig:repo-commit-diagram})}.
-
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.9\linewidth]{RepoCommitDiagram.jpg}
-  \caption{Gource Git commit visualization with multiple contributors and versioning.}
-  \label{fig:repo-commit-diagram}
-\end{figure}
-
-\subsubsection*{3.3 Agile Development }
-
-Development prioritized constant iterative improvement based on user feedback, following the Agile development philosophy. Each cycle began with a TestFlight release, followed by direct observation of user interaction.
-
-As issues emerged, we revisited architectural components in real time. It was important to have little emotional attachment to the current state of the project, and readily refactor when necessary. In several cases, this resulted in major overhauls of the app. After implementing changes, a new build was released and the cycle repeated. Over time, this iterative pattern functions like gradient descent optimization, as iterative releases gradually move the user toward a smoother product experience.
-
-This process assumes that all of our assumptions are incorrect. Design and architecture remains highly fluid.
-
-\subsection*{7. AI Usage In Modern Development }
-
-AI usage in modern app development could be an entire paper on its own. That said, we think it is instructive to talk briefly about the ways we're using AI in our workflows and how it assists with architectural judgement.
-
-We use primarily Codex 5.3 for simple implementation-related coding tasks. Architectural decisions are typically informed using a mix of Claude and ChatGPT (along with docs/example GitHubs). This separation is relatively strict, as models perform best when given well-scoped problems. In our workflow, we have found that spending the majority of time upfront thinking about architecture results in far easier implementation later on.
-
-We maintain an extensive custom prompt and model library for recurring tasks. For example, our `summary' task is adapted from a leaked Claude Code system summary template, and is used to prevent context overload during extended terminal sessions. Context management more broadly is critical. To address this, we use a combination of MCP servers for scoped context exposure, deep research for highly complex decisions, and manual identification of relevant documentation and code snippets when pursuing specific directions. In addition, we run several custom model configurations within a local Open WebUI instance connected to OpenRouter \textit{(see Fig.~\ref{fig:openwebui-example})}. These custom models allow for targeting specific jobs/recurring problem categories (for example, dealing with Elo/ranking logic or writing README documentation).
-
-In short, AI is an important aspect of modern app development, and we have put a significant amount of energy into setting up appropriate workflows to fully take advantage of this.
-
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.5\linewidth]{OpenWebUI_example.jpg}
-  \caption{Open WebUI local model workflow. \textit{Example of custom model config used for scoped, recurring docs querying/generation.}}
-  \label{fig:openwebui-example}
-\end{figure}
-
-% =========================
-% FINAL OUTCOME
-% =========================
-\section*{FINAL OUTCOME}
-\subsection*{5.1 Concept statement}
-SideQuest is a creative platform that transforms spaces into living, community-built creative artifacts. A user stands somewhere, captures a moment, adds a short prompt, and plants that creative challenge onto a map. Over time, this space becomes a shared public square shaped by many contributors. 
-
-SideQuest is 'the anti-Instagram': while many social platforms reward passive scrolling, SideQuest asks users to explore and create.
-
-Beyond being an innovative concept, SideQuest is a successful example of a full-stack iOS application published to the App Store and supported by production-grade architecture. The system manages authentication, media storage, geospatial correctness, and user interaction. It has X daily active users, providing evidence that the design holds under real usage conditions.
-
-\subsection*{5.2 What is delivered (artifact inventory)}
-This project delivers a complete set of artifacts suitable for a creative practice Signature Work:
-
-\textbf{Primary artifact}
-\begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
-  \item SideQuest iOS App
-\end{itemize}
-
-\textbf{Supporting artifacts}
-\begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
-  \item Deployed backend (Dockerized API on Google Cloud Run)
-  \item GitHub repository (source code, history, documentation)
-  \item Design + testing documentation (TestFlight feedback notes; iterative change history)
-  \item Evaluation evidence (DAU trend snapshots; usability findings; bug/issue log excerpts)
-  \item Screenshots and visual documentation (final UI states for major flows)
-  \item Architecture diagrams
-\end{itemize}
-
-\subsection*{5.4 Walkthrough of the final user experience}
-<TODO: Upload screenshots here>
-Let's look at our friend Krishna's user journey:
-
-
--onboarding + SMS
-- live map screen
-- challenge creation and contribution
--voting, viewing, immersion
--competition and motivation (gamification, duels)
--adding friends
-
-\subsection*{5.5 Evidence of impact}
-<TODO:  DAUs, Example challenge pin, outcome metrics table>
-
-<TODO: Reflection, Bibliography, Prof. Feedback>
-
-\begin{figure}[!htbp]
-  \centering
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{ChallengeMap.PNG}
-    \caption{Challenge map landing page. \textit{(Landing page map view with pin uploads around DKU created by app users.)}}
-    \label{fig:challenge-map}
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{UserProfile.PNG}
-    \caption{User profile with friends. \textit{(Current profile view, showing the friends system and user identity details.)}}
-    \label{fig:user-profile}
-  \end{minipage}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \centering
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/sidequest_appstorepage.png}
-    \caption{SideQuest App Store page. \textit{(Public listing for SideQuest: Explore \& Challenge.)}}
-    \label{fig:appphotos-appstore-page}
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Map.PNG}
-    \caption{In-app map view. \textit{(Primary live map screen used to discover nearby Quests.)}}
-    \label{fig:appphotos-map}
-  \end{minipage}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \centering
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Quests.PNG}
-    \caption{Quests feed view. \textit{(Quest browsing interface for challenge discovery and participation.)}}
-    \label{fig:appphotos-quests}
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_ChallengeCreation.PNG}
-    \caption{Challenge creation flow. \textit{(UI for creating a new Quest with image and prompt.)}}
-    \label{fig:appphotos-challenge-creation}
-  \end{minipage}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \centering
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG}
-    \caption{Challenge appears in Quest list. \textit{(Newly created challenge surfaced to other users in the feed.)}}
-    \label{fig:appphotos-challenge-appears}
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_voting.PNG}
-    \caption{Voting and duel screen. \textit{(Head-to-head voting interface for community ranking.)}}
-    \label{fig:appphotos-voting}
-  \end{minipage}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \centering
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Share.PNG}
-    \caption{Quest sharing view. \textit{(Sharing interface to distribute challenges with friends.)}}
-    \label{fig:appphotos-share}
-  \end{minipage}\hfill
-  \begin{minipage}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=\linewidth]{AppPhotos/Sidequest_Friends.PNG}
-    \caption{Friends system UI. \textit{(Social graph and friend challenge interactions.)}}
-    \label{fig:appphotos-friends}
-  \end{minipage}
-\end{figure}
-
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.48\linewidth]{AppPhotos/Sidequest_Profile.PNG}
-  \caption{Profile view. \textit{(User profile page with identity and participation details.)}}
-  \label{fig:appphotos-profile}
-\end{figure}
-
-\section*{REFERENCES}
-
-{\setlength{\parindent}{0pt}%
-\setlength{\parskip}{0.6\baselineskip}%
-\newcommand{\mlaentry}[1]{\noindent\hangindent=0.5in\hangafter=1 #1\par}%
-\mlaentry{Abidin, Crystal. “Visibility Labour: Engaging with Influencers’ Fashion Brands and \#OOTD Advertorial Campaigns on Instagram.” \textit{Media International Australia}, vol. 161, no. 1, 2016, pp. 86--100. https://doi.org/10.1177/1329878X16665177.}
-\mlaentry{BeReal. “BeReal: Your Friends for Real.” BeReal, https://bere.al.}
-\mlaentry{Biskjaer, Michael Mose, Peter Dalsgaard, and Kim Halskov. “A Constraint-Based Understanding of Design Spaces.” \textit{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}, 2014, pp. 2599--2608. https://doi.org/10.1145/2556288.2557342.}
-\mlaentry{Bucher, Taina. “Want to Be on the Top? Algorithmic Power and the Threat of Invisibility on Facebook.” \textit{New Media \& Society}, vol. 14, no. 7, 2012, pp. 1164--1180. https://doi.org/10.1177/1461444812440159.}
-\mlaentry{de Souza e Silva, Adriana, and Daniel M. Sutko. \textit{Digital Cityscapes: Merging Digital and Urban Playspaces}. Peter Lang, 2009.}
-\mlaentry{Deterding, Sebastian, et al. “From Game Design Elements to Gamefulness: Defining ‘Gamification.’” \textit{Proceedings of the 15th International Academic MindTrek Conference}, 2011, pp. 9--15. https://doi.org/10.1145/2181037.2181040.}
-\mlaentry{Hemment, Drew. “Locative Arts.” \textit{Leonardo}, vol. 39, no. 4, 2006, pp. 348--355. https://doi.org/10.1162/leon.2006.39.4.348.}
-\mlaentry{Instagram. “About Instagram.” Instagram, https://about.instagram.com.}
-\mlaentry{Niantic, Inc. “Pokémon GO.” Niantic, 2016, https://pokemongolive.com.}
-\mlaentry{Nielsen, Jakob. \textit{Usability Engineering}. Morgan Kaufmann, 1994.}
-\mlaentry{Norman, Don. \textit{The Design of Everyday Things}. Revised and expanded ed., Basic Books, 2013.}
-\mlaentry{Snap Inc. “Snapchat.” Snap, https://snap.com.}
-\mlaentry{Stokes, Patricia D. \textit{Creativity from Constraints: The Psychology of Breakthrough}. Springer, 2005.}
-\mlaentry{Zimmerman, John, Jodi Forlizzi, and Shelley Evenson. “Research through Design as a Method for Interaction Design Research in HCI.” \textit{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}, 2007, pp. 493--502. https://doi.org/10.1145/1240624.1240704.}
-}
-
-
-
-
-
-
-
-
-\begin{figure}[!htbp]
-  \centering
-  \includegraphics[width=0.7\linewidth]{FrontendStructureChart.jpg}
-  \caption{Frontend structure chart. \textit{(High-level organization of the React Native app.)}}
-  \label{fig:frontend-structure}
-\end{figure}
-
 
 \end{document}
