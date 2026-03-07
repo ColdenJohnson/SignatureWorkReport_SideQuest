@@ -102,7 +102,7 @@ SideQuest is a location based photo-challenge app designed to encourage engageme
 % ACKNOWLEDGEMENTS
 % =========================
 \section{ACKNOWLEDGEMENTS}
-First and foremost, I would like to thank my mentor Professor Jiang Long, for his willingness to provide support wherever the development process took us. The success of this project would not have been possible without his consistent support and engagement. Thank you also to my co-founder Michael Cornell, who willingly stayed awake many a late night debugging code (and especially doing battle with the Apple ecosystem). Thanks to Teohan 'Dino' Blind for coming up with the name 'SideQuest', and in doing so finally helping us escape the matrix. Thank you as well to Krishna Thiagarajan, who I view as the user persona for the type of person who loves the app, and who gave endless suggestions in the development process. Finally, thank you to our Beta test users, including Thomas Boyle, Ethan 'Cobbe' Deal, Zoya Hussein Abbas, Kailani Peng Wang, Mason Swayne, Katherine Cornell, and many, many others.
+First and foremost, I would like to thank my mentor Professor Jiang Long, for his willingness to provide support wherever the development process took us. The success of this project would not have been possible without his insightful feedback and engagement. Thank you also to my co-founder Michael Cornell, who stayed awake many a late night debugging code (and especially doing battle with the Apple ecosystem). Thanks to Teohan 'Dino' Blind for coming up with the name 'SideQuest', and in doing so finally helping us escape the matrix. Thank you as well to Krishna Thiagarajan, who I view as the user persona for the type of person who loves the app, and who gave endless suggestions in the development process. Finally, thank you to our Beta test users, including Thomas Boyle, Ethan 'Cobbe' Deal, Zoya Hussein Abbas, Kailani Peng Wang, Mason Swayne, Katherine Cornell, and many, many others.
 
 We also acknowledge the valuable work of the many open source tools that made this project possible, including React Native, Expo, Node.js, Express, MongoDB, Mongoose, Docker, Jest, and as always a great deal of special love for Git.
 
@@ -121,34 +121,46 @@ We also acknowledge the valuable work of the many open source tools that made th
 \setcounter{page}{1}
 \renewcommand{\thepage}{\arabic{page}}
 \section{INTRODUCTION}
-Most consumer social apps optimize for one thing: keeping you looking at a screen. Photos and short-form content are abundant, but they are broadly damaging and addictive for people who use them (Bucher, 2012; Abidin, 2016), and are rarely designed to make people do anything in the physical world. Location, when it appears at all, is typically treated as passive metadata (a tag), not as an active ingredient that shapes what you create, where you go, and who you meet. At the same time, many location-based apps that do motivate active movement (navigation, reviews) tend to be utility-driven, leaving little room for user-focused creativity. The result is a gap: there are few apps that encourage users to take positive actions in the real world, while also encouraging participation through social gamification.
 
-SideQuest targets that gap. It is built on the idea that seeking discomfort and novelty is the best thing someone can do to enrich their life. SideQuest aims to shift behavior away from passive scrolling and toward sharing social exploration in the real world.
+As DKU students, we often struggle to stay in contact with our friends across the world, especially while travelling. Additionally, most consumer social apps optimize for one thing: keeping you looking at a screen. Photos and short-form content are abundant, but they are broadly damaging and addictive for people who use them (Bucher, 2012; Abidin, 2016), and are rarely designed to make people do anything in the physical world. Location, when it appears at all, is typically treated as passive metadata (a tag), not as an important ingredient that shapes how you interact. The result is a gap: there are few apps that encourage positive actions in the real world, while also keeping users engaged with their friends through social gamification.
+
+SideQuest is built to address this. SideQuest's ethos is the idea that seeking novelty, community, and discomfort is the best thing someone can do to enrich their life. SideQuest aims to shift behavior away from passive scrolling and toward social exploration of the world around us.
 
 \subsection{Project Intent: What is SideQuest?}
 
-SideQuest is a location and activity focused photo-challenge app. It encourages creative and novel engagement with real-world places through social gamification.
+SideQuest is for friend groups to share what they're doing, from anywhere in the world. Users contribute photos to shared prompts created by their friends. SideQuest is intended to encourage creative and novel engagement with places and people through gamification.
 
-Users create a new Quest at a map location by snapping a photo and attaching a short prompt. One real user example was 'take a photo with a new friend', accompanied by a photo of the user and a campus \begin{CJK}{UTF8}{gbsn}保安\end{CJK} security guard. Other users then follow that same Quest prompt to contribute their own photos with new friends. On this particular pin, users uploaded photos with everything from other DKU students, to silly pictures of them frowning by themselves. This transforms a given Quest into an evolving, community-built creative artifact. More concretely, it encourages users to take a minute to do something positive in their day: meet a new friend, and share that moment with others.
+The user flow diagram shows a typical user experience \textit{(Fig.~\ref{fig:user-flow})}, and is discussed in detail in Section~\ref{sec:user-walkthrough}. Briefly, users create a new Quest on the map by snapping a photo and attaching a short prompt. This prompt is then visible to others, who partipate by adding their photo of the same theme. 
 
-Other Quests have included prompts like "you in your favorite study spot", "play tag with your friends", "that gym lifestyle", or "best restaurant in Shanghai". All of these Quests encourage a certain type of feeling among users: in interviews, users have reported that SideQuest "encourages me to try new things", and "I go to places and do new things I never would have thought of [without SideQuest]".
+The best way to understand how this evolves is through an example. One real Quest was 'take a photo with a new friend', accompanied by a selfie of the user and a campus \begin{CJK}{UTF8}{gbsn}保安\end{CJK} security guard. Other users then contributed to the same Quest prompt with their own photos of new friends. Users took pictures of everything from hanging out with other DKU students, to silly pictures frowning by themselves. This transforms a given Quest into an evolving, community-built creative artifact. More concretely, it encourages users to take a minute to do something positive in their day: meet a new friend, and share that moment with others.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=1\linewidth]{SideQuestUserFlowDiagram.png}
+  \caption[System Architecture Diagram]{User Flow Diagram.}
+  \label{fig:user-flow}
+\end{figure}
+
+Other Quests have included prompts like "you in your favorite study spot", "play tag with your friends", "that gym lifestyle", or "best restaurant in Shanghai". All of these Quests encourage a certain type of feeling among users: in feedback, users have reported that SideQuest "encourages me to try new things", and "I go to places and do things I wouldn't have taken the time for [without SideQuest]".
 
 To incentivize participation beyond sharing with friends, SideQuest has a gamification system to reward creativity. All submissions are included in head-to-head ``duels'', where users vote by swiping. These outcomes create a (reductively) Elo-style ranking that encourages compelling contributions over time. This voting system highlights top photos to inspire others and gives users unique badges to exhibit on their profiles. SideQuest also allows users to add and directly challenge friends, creating sustained and meaningful engagement.
 
 SideQuest delivers a creative design project along the entire product axis, including full stack development, product design, and Agile methodology-style user testing + integration. The core output is therefore twofold: (1) an App Store-published iOS app with real user base, and (2) a documented creative design and research process with reasoned decision making.
 
-SideQuest is available for download on the App Store \textit{(Fig.~\ref{fig:appstore-listing})}. We encourage readers to download the app on iOS by searching "SideQuest: Explore \& Challenge". Note that a VPN is needed when in China to use the app (including for phone number registration).
+SideQuest is available for download on the App Store \textit{(Fig.~\ref{fig:appphotos-appstore})}. We encourage readers to download the app on iOS by searching "SideQuest: Explore \& Challenge". Note that a VPN is needed when in China to use the app (including for SMS registration).
+
+
 
 \addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
 \subsection{Design Philosophy}
 \addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
 
-SideQuest's UX behavior is developed using a user-centered, iterative philosophy common in modern product design/HCI (Human Computer Interaction). Simply, this approach strives to build prototypes early, test with real users, and ship improvments based on user data, based loosely on the Agile design philosophy (Fig. ~\ref{fig:agile-cycle}). Two beliefs drive this approach:
+SideQuest's UX behavior is developed using a user-centered, iterative philosophy common in modern product design and HCI (Human Computer Interaction). This approach strives to build prototypes early, test with real users, and ship improvments based on user data, based loosely on the Agile design philosophy (Fig. ~\ref{fig:agile-cycle}). Two beliefs drive this approach:
 
-\begin{itemize}[leftmargin=*, itemsep=0.4\baselineskip]
+\begin{enumerate}[leftmargin=*, itemsep=0.4\baselineskip]
   \item Design claims must be observable in use. If a mechanic is intended to be motivating but this is not borne out by the data, the mechanic is necessarily wrong (or miscommunicated), regardless of intent.
   \item Late-stage testing is comparatively expensive. Testing is embedded continuously because the cost of fixing fundamental issues balloons in complexity as features accumulate.
-\end{itemize}
+\end{enumerate}
 
 \begin{figure}[!htbp]
   \centering
@@ -210,57 +222,41 @@ SideQuest's UX behavior is developed using a user-centered, iterative philosophy
 
 \subsubsection{User Feedback Gathering}
 
-To constantly create an updated feature backlog and prioritize issues, we relied mainly on three testing channels:
+To constantly maintain an updated feature backlog and prioritize issues, we relied mainly on three testing channels:
 
-\begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
-  \item \textbf{TestFlight with Real Users:} Structured observational sessions map user journeys through the app and pair direct observation with post-session reflection. This process has consistently identified bugs, unintuitive flows, and friction points.
-  \item \textbf{Ongoing Qualitative Feedback:} A live feedback document with issue tracking captures recurring complaints, aesthetic critiques, and suggestions. Users are encouraged to text at any time for help with issues or confusion.
-  \item \textbf{Deployment Behavioral Validation:} With a stable group of daily active users (DAU), we monitor daily usage of the app to assess 'ecological validity' and guide what features are lacking in subsequent releases.
-\end{itemize}
+\textbf{TestFlight with Users:} Observational sessions map user journeys through the app, both via observation and post-session reflection. Much to the annoyance of testers, this frequently involved repeating the phrase "I can't help you -- just do what you'd normally do", in order to get an unbiased picture of where problems arose. This process frequently identified bugs and unintuitive flows.
 
-\addtocontents{toc}{\protect\setcounter{tocdepth}{-1}} 
-\subsection{Guiding Questions}
-\addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
+\textbf{Ongoing Qualitative Feedback:} A live feedback document with issue tracking captures recurring complaints, aesthetic critiques, and suggestions. Users are encouraged to text at any time for help with issues or confusion.
 
-\begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
-  \item What architecture is required to support a production-grade app published to the App Store?
-  \item What does a product manager's role look like, and how should user feedback contribute to the overall design of a product?
-  \item To what extent can social gamification incentivize user engagement?
-  \item What does modern app development look like, and to what extent can workflows be accelerated (examined from the perspective of CI/CD, AI, Agile iteration, and more)?
-  \item What does working in a startup environment feel like, and is this something I would like to explore more in the future?
-\end{itemize}
-
-\subsection{Technical Architecture}
-SideQuest's technical architecture is by far the most time-consuming aspect of the project, and significant effort goes into publishing a reliable, secure, and bug-free app to the App Store. For the technically inclined reader, an introductory overview is included here, and discussed in more detail in subsequent sections. \textit{(Fig.~\ref{fig:system-architecture})}:
-
-\begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
-  \item Client: React Native Expo, iOS-first distribution via TestFlight (also buildable for Android distribution)
-  \item Backend: MERN-style stack (Node.js + Express + MongoDB with Mongoose)
-  \item Auth: Firebase Authentication (email/password and phone/SMS), with server-side verification
-  \item Photo storage: Firebase storage with URIs tied to pin data in MongoDB
-  \item Deployment: Dockerized backend deployed on Google Cloud Run (GCR)
-  \item Testing: Postman for endpoint validation Jest for unit testing
-  \item CI/CD Pipeline: Integrated on both Google Cloud Run and XCode Cloud
-  \item Git: Important for versioning, Agile methodologies, and collaborating with team members
-\end{itemize}
+\textbf{Deployment Behavioral Validation:} With a stable group of daily active users (DAU), we monitor daily usage of the app to assess 'ecological validity' and guide what features are lacking in subsequent releases.
 
 \begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.95\linewidth]{SideQuestArchitectureDiagram.png}
+  \includegraphics[width=1\linewidth]{SideQuestArchitectureDiagram.png}
   \caption[System Architecture Diagram]{System architecture diagram. \textit{(High-level view of SideQuest key services)}}
   \label{fig:system-architecture}
 \end{figure}
 
-% TODO: Make a simplified diagram for up here and a detailed one for the technical methods section.
+\subsection{Technical Architecture}
+SideQuest's technical architecture is by far the most time-consuming aspect of the project, and significant effort goes into publishing a reliable, secure, and usable app to the App Store. For the technically inclined reader, an introductory overview is included here, and discussed in detail in Section \ref{sec:sytem-architecture}. \textit{(Fig.~\ref{fig:system-architecture})}:
 
+\begin{itemize}[leftmargin=*, itemsep=0.25\baselineskip]
+  \item Client: React Native Expo, iOS-first distribution via TestFlight (also buildable for Android distribution).
+  \item Backend: MERN-style stack (Node.js + Express + MongoDB with Mongoose).
+  \item Authentication: Firebase Auth (email/password and phone/SMS), with server-side verification.
+  \item Photo storage: Firebase storage with URIs tied to pin data in MongoDB.
+  \item Deployment: Dockerized backend deployed on Google Cloud Run (GCR).
+  \item Testing: Postman for endpoint validation Jest for unit testing.
+  \item CI/CD Pipeline: Integrated on both Google Cloud Run and XCode Cloud.
+  \item Git: Important for versioning, Agile methodologies, and collaborating with team members.
+\end{itemize}
 
 \subsection{Significance}
-This project is significant for three main reasons. First, it explores a novel app concept aimed at freeing users from passive consumption loops pervasive in modern society. This claim is supported by early adoption and continued use among a group of active users.
+This project is significant for three main reasons. First, it explores a novel app concept aimed at connecting people across the world and freeing users from passive consumption loops. This claim is supported by early adoption and continued use among a group of active users.
 
-Technically, the project delivers a production-grade full-stack architecture capable of supporting a real App Store product. Successful deployment of this nature is exceedingly rare for a signature work product, and demonstrates technical competence across mobile development, backend systems, databases, and frontend UI design.
+Technically, the project delivers a production-grade full-stack architecture capable of supporting a real App Store product. Successful deployment of this scale is exceedingly rare for a signature work product, and demonstrates technical competence across mobile development, backend systems, databases, and frontend UI design.
 
 Finally, it demonstrates practical product leadership, following a user-centered Agile workflow. Successful execution of this project mirrors the role of a technical Product Manager (PM) in modern software teams.
-
 
 % =========================
 % MEDIA AND LITERATURE REVIEW
@@ -350,6 +346,7 @@ This review establishes both the theoretical and process-oriented foundation for
 % =========================
 
 \section{SYSTEM ARCHITECTURE AND DESIGN}
+\label{sec:sytem-architecture}
 
 SideQuest is built as a full-stack system designed for App Store deployment. Each layer of the tech stack was chosen based on trade-offs between iteration speed, scalability, simplicity, and ecosystem familiarity. This section walks through -- and to an extent justifies -- each part of the system: frontend, backend, auth and data, and deployment.
 
@@ -447,11 +444,11 @@ For API validation and debugging, Postman is used to test endpoints independentl
 \subsection{User Testing and Iteration}
 \addtocontents{toc}{\protect\setcounter{tocdepth}{2}} 
 
-\begin{wrapfigure}[9]{r}{0.4\linewidth}
+\begin{wrapfigure}[3]{r}{0.4\linewidth}
   \vspace{-5\baselineskip}
   \centering
   \includegraphics[width=\linewidth, angle=-90]{UserFeedbackWall.jpeg}
-  \caption{Whiteboard backlog tracking issues.}
+  \caption{Whiteboard backlog.}
   \label{fig:user-feedback-wall}
 \end{wrapfigure}
 
@@ -601,6 +598,7 @@ Beyond conceptual innovation, SideQuest is implemented as a full-stack iOS appli
 \end{figure}
 
 \subsection{User Experience Walkthrough}
+\label{sec:user-walkthrough}
 
 This section walks through the SideQuest user experience via a ``day in the life'' flow of our beta tester Krishna.
 
@@ -667,10 +665,12 @@ Finally, Krishna can add new friends directly inside the app \textit{(Fig.~\ref{
   \end{minipage}
 \end{figure}
 
+\clearpage
+
 \section{REFERENCES}
 
 {\setlength{\parindent}{0pt}%
-\setlength{\parskip}{0.6\baselineskip}%
+\setlength{\parskip}{0.5\baselineskip}%
 \newcommand{\mlaentry}[1]{\noindent\hangindent=0.5in\hangafter=1 #1\par}%
 \mlaentry{Abidin, Crystal. “Visibility Labour: Engaging with Influencers’ Fashion Brands and \#OOTD Advertorial Campaigns on Instagram.” \textit{Media International Australia}, vol. 161, no. 1, 2016, pp. 86--100. https://doi.org/10.1177/1329878X16665177.}
 \mlaentry{BeReal. “BeReal: Your Friends for Real.” BeReal, https://bere.al.}
@@ -688,9 +688,44 @@ Finally, Krishna can add new friends directly inside the app \textit{(Fig.~\ref{
 \mlaentry{Zimmerman, John, Jodi Forlizzi, and Shelley Evenson. “Research through Design as a Method for Interaction Design Research in HCI.” \textit{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}, 2007, pp. 493--502. https://doi.org/10.1145/1240624.1240704.}
 }
 
+\clearpage
+
+
+\section*{SIGNATURE WORK NARRATIVE}
+
+This project comes from an overlap between programming, system architecture, and product thinking. Creating SideQuest required a broad set of skills: writing code, designing data models, managing product direction, making technical trade-offs under constraints, and testing with users. This is why it works well as a Signature Work: it provides evidence that I learned how to combine ideas from different courses at Duke/DKU into one working system.
+
+\subsection*{COMPSCI 201: Programming and Data Structures}
+
+CS 201 was my first real programming course, Before taking it, I had very little coding background, having only taken a (admittedly rather fake) introductory course during Freshman year in Barcelona. During the class itself I remember putting in 50 hour weeks understanding concepts, attempting to compete with people who had been coding since grade school. Looking back now, though, this was one of the most transformative times of my life. After completing this course, I immediately switched majors from political economy to computer science, and entirely changed the directory of my future career. In terms of hard skills, COMPSCI 201 taught me Java, and although SideQuest is primarily built with Javascript (React Native + Node), the real transfer was not necessarily syntax but instead logic. The course taught me how to break a problem into parts, think algorithmically, reason through control flow, and build working solutions. Those core skills directly carried into the success of this project.
+
+The course also mattered because it was the first time I understood exactly how software development works as a collaborative process. My project group used GitHub for version control, which ended up being very important as a first introduction. Building SideQuest involved a lot of collaboration, and more than that, a lot of need for version control: we frequently had to roll back mistakes and merge commits. It involved collaboration, late-night debugging, code revision, and the need to keep changes organized. COMPSCI 201 did not teach every advanced software engineering practice that I would later experience, but it for the first time introduced the mindset that software is built in versions, by teams, and with careful structure.
+
+\subsection*{COMPSCI 310: Introduction to Databases}
+
+If COMPSCI 201 made the project possible at the level of code, COMPSCI 310 made it possible at the level of system design. One of the more difficult parts of an app like SideQuest are the data systems; without a serious understanding of databases, the backend would be entirely unworkable. The course focused on SQL (relational) databases, while SideQuest uses MongoDB, which is non-relational. However, because of this class we used MongoDB together with Mongoose. That combination adds structure and model logic on top of non-relational databases. This made many of the concepts from CS 310 directly relevant. We still thought in terms of relationships, acess patterns, normalization vs denormalization, and data models. I have heard it said before that the database determines the culture of an organization – I think there is truth in that. The data model pushes the product in certain directions. Rigid models slow down development, with every new feature becoming painful. Sloppiness leads to system instability. The database is part of the product: what can be maintained, and what can be trusted.
+
+\subsection*{IND 200: Product Management (Duke)}
+
+Before taking this class on Product Management, I viewed the discipline with some skepticism. From a technical perspective, it often first appears as vague and inflated work. This class forced me to change that view; it is the work of deciding what matters, what users actually need, and what should be prioritized. The most eloquent of engineering is useless without proper Product Management.
+
+This course gave me a much better framework for understanding apps not just as software but as products. A product is not judged by its technical functionality. Instead, it is judged by whether people understand it, use it, and get value from it. In the past, it has been easy for me to forget this fact. The Engineer in me often wants to build features because they are interesting or elegant. Product thinking forces the harder (and more interesting) question of “does this actually improve the user experience?” 
+
+
+\subsection*{Future Goals}
+
+This project allowed me to explore three potential futures I see for myself. First, it gave me direct experience with full-stack development. Full-stack engineer is approaching a level of ubiquity that makes it almost a buzzword in job listings and similar. This project let me explore what it means in a concrete way, to explore if I would potentially enjoy this as a career path. As a full-stack engineer, I worked across frontend UI, backend APIs, DBs, cloud infra, testing, and everything else. I now have a much more complete degree of full stack exposure compared to before starting on the project.
+
+Second, the project showed me that I am interested more broadly not only in engineering, but also in technical product development. I don’t always enjoy thinking at the code level, but also about user behavior, feature prioritization, system trade-offs, and the broader shape of a product. This suggests a future path in technical product management or a related role might be of interest. I have now done a degree of concrete work in this domain.
+
+Finally, I have been interested in the idea of a startup for a long time now. There are a couple of things that draw me to this. First, I like the idea of confronting the unknown to create something entirely new. Second, I believe I do my best work both under my own volition and as a generalist rather than a specialist. Third, I enjoy the energy of these ‘high-creation-density’ environments. SideQuest falls into this startup-adjacent category because its development required exactly that kind of work. Nothing about the project was predefined in any meaningful way. The concept itself was novel, the product direction changed repeatedly in response to real use (multiple pivots), and progress depended on learning whatever was missing at a given moment. Building SideQuest showed me that I enjoy that type of environment, and this may also be a valid future direction to take. 
+
+
+\clearpage
+
 \section{APPENDIX}
 
-\begin{figure}[!tb]
+\begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.7\linewidth]{TechStackChart.jpg}
   \caption[Tech Stack Table]{Tech stack overview. \textit{(Core client, backend, and infrastructure components.)}}

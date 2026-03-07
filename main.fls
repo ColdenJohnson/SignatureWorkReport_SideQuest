@@ -293,10 +293,11 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu4f.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5b.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT ./SideQuestUserFlowDiagram.png
+INPUT ./SideQuestUserFlowDiagram.png
+INPUT ./SideQuestUserFlowDiagram.png
+INPUT ./SideQuestUserFlowDiagram.png
+INPUT ./SideQuestUserFlowDiagram.png
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -313,13 +314,17 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT ./SideQuestArchitectureDiagram.png
 INPUT ./SideQuestArchitectureDiagram.png
 INPUT ./SideQuestArchitectureDiagram.png
 INPUT ./SideQuestArchitectureDiagram.png
 INPUT ./SideQuestArchitectureDiagram.png
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
 INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
 INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
