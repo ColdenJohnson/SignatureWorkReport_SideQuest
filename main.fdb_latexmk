@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772891356.73054 "/Users/colden/Downloads/Signature Work/main.tex" "main.pdf" "main" 1772891370.9079 0
-  "/Users/colden/Downloads/Signature Work/main.tex" 1772891356.44526 62721 6d7234eef2f88826b5030e550b43b509 ""
+["pdflatex"] 1772899592.46498 "/Users/colden/Downloads/Signature Work/main.tex" "main.pdf" "main" 1772899607.36651 0
+  "/Users/colden/Downloads/Signature Work/main.tex" 1772899592.23466 62722 9fe98c2d5ba22bbfe863625d300f1b50 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -211,11 +211,11 @@
   "SideQuestUserFlowDiagram.png" 1772876032.13605 3567783 66f67ad349bcacaee7446ae2b77aead7 ""
   "TechStackChart.jpg" 1772688745 237129 c8b9e3d40991f0ca7ab1fd9140443393 ""
   "UserFeedbackWall.jpeg" 1772688745 2478725 4d6eaec16a3273fb63d4ac5546ad8b91 ""
-  "main.aux" 1772891370.74934 10368 acc1c663c4f1796576ccd1c21c0b57cf "pdflatex"
-  "main.lof" 1772891370.75143 1957 04be55172ce0cb3ed1e6adcc408619dd "pdflatex"
-  "main.out" 1772891370.75091 3791 529be67a2cd32204470a3c4bad48d90b "pdflatex"
-  "main.tex" 1772891356.44526 62721 6d7234eef2f88826b5030e550b43b509 ""
-  "main.toc" 1772891370.75137 3767 2d50e872867a05b9e16127abad53f255 "pdflatex"
+  "main.aux" 1772899607.20215 10368 acc1c663c4f1796576ccd1c21c0b57cf "pdflatex"
+  "main.lof" 1772899607.20356 1957 04be55172ce0cb3ed1e6adcc408619dd "pdflatex"
+  "main.out" 1772899607.20334 3791 529be67a2cd32204470a3c4bad48d90b "pdflatex"
+  "main.tex" 1772899592.23466 62722 9fe98c2d5ba22bbfe863625d300f1b50 ""
+  "main.toc" 1772899607.20354 3767 2d50e872867a05b9e16127abad53f255 "pdflatex"
   (generated)
   "main.aux"
   "main.lof"
