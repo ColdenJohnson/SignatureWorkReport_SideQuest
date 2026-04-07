@@ -1,0 +1,28 @@
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.synctex(busy)
+
+# Local build outputs for the main document
+main_check*.aux
+main_check*.log
+main_check*.out
+main_check*.pdf
+main_page*.png
+
+# Generated files inside exported diagram sources
+VariousDiagrams/Latex Created Diagrams/*.aux
+VariousDiagrams/Latex Created Diagrams/*.fdb_latexmk
+VariousDiagrams/Latex Created Diagrams/*.fls
+VariousDiagrams/Latex Created Diagrams/*.log
+VariousDiagrams/Latex Created Diagrams/*.crop.pdf
+VariousDiagrams/Latex Created Diagrams/*_600dpi.png
+VariousDiagrams/Latex Created Diagrams/*_600dpi_white.png

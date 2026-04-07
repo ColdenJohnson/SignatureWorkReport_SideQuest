@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  8 MAR 2026 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  7 APR 2026 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/colden/Downloads/Signature Work/main.tex"
-(/Users/colden/Downloads/Signature Work/main.tex
+**/Users/colden/Documents/SigWork/SignatureWork_Final/main.tex
+(/Users/colden/Documents/SigWork/SignatureWork_Final/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -711,15 +711,15 @@ File: c70gbsn.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 File: c70gbsn.fdx 2021/10/16 4.8.5
 )
-<SideQuestUserFlowDiagram.png, id=188, 1117.17375pt x 383.4325pt>
-File: SideQuestUserFlowDiagram.png Graphic file (type png)
-<use SideQuestUserFlowDiagram.png>
-Package pdftex.def Info: SideQuestUserFlowDiagram.png  used on input line 139.
+<VariousDiagrams/SideQuestUserFlowDiagram.png, id=188, 1117.17375pt x 383.4325pt>
+File: VariousDiagrams/SideQuestUserFlowDiagram.png Graphic file (type png)
+<use VariousDiagrams/SideQuestUserFlowDiagram.png>
+Package pdftex.def Info: VariousDiagrams/SideQuestUserFlowDiagram.png  used on input line 139.
 (pdftex.def)             Requested size: 469.75502pt x 161.22777pt.
  [1
 
 
-] [2 <./SideQuestUserFlowDiagram.png>]
+] [2 <./VariousDiagrams/SideQuestUserFlowDiagram.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 218.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -731,106 +731,106 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 218.
  [3{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<SideQuestArchitectureDiagram.png, id=216, 764.8575pt x 524.96124pt>
-File: SideQuestArchitectureDiagram.png Graphic file (type png)
-<use SideQuestArchitectureDiagram.png>
-Package pdftex.def Info: SideQuestArchitectureDiagram.png  used on input line 235.
+<VariousDiagrams/SideQuestArchitectureDiagram.png, id=216, 764.8575pt x 524.96124pt>
+File: VariousDiagrams/SideQuestArchitectureDiagram.png Graphic file (type png)
+<use VariousDiagrams/SideQuestArchitectureDiagram.png>
+Package pdftex.def Info: VariousDiagrams/SideQuestArchitectureDiagram.png  used on input line 235.
 (pdftex.def)             Requested size: 469.75502pt x 322.4207pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 243.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./SideQuestArchitectureDiagram.png>] [5] [6] [7] [8] [9]
-<Latex Created Diagrams/08_navigation_graph.pdf, id=256, 714.46121pt x 372.23567pt>
-File: Latex Created Diagrams/08_navigation_graph.pdf Graphic file (type pdf)
-<use Latex Created Diagrams/08_navigation_graph.pdf>
-Package pdftex.def Info: Latex Created Diagrams/08_navigation_graph.pdf  used on input line 356.
+) [4{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./VariousDiagrams/SideQuestArchitectureDiagram.png>] [5] [6] [7] [8] [9]
+<VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf, id=256, 714.46121pt x 372.23567pt>
+File: VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf Graphic file (type pdf)
+<use VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf>
+Package pdftex.def Info: VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf  used on input line 356.
 (pdftex.def)             Requested size: 446.26582pt x 232.51039pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 366.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [10 <./Latex Created Diagrams/08_navigation_graph.pdf>]
-<Latex Created Diagrams/03_sequence_create_challenge.pdf, id=299, 456.32684pt x 363.42575pt>
-File: Latex Created Diagrams/03_sequence_create_challenge.pdf Graphic file (type pdf)
-<use Latex Created Diagrams/03_sequence_create_challenge.pdf>
-Package pdftex.def Info: Latex Created Diagrams/03_sequence_create_challenge.pdf  used on input line 375.
+) [10 <./VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf>]
+<VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf, id=299, 456.32684pt x 363.42575pt>
+File: VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf Graphic file (type pdf)
+<use VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf>
+Package pdftex.def Info: VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf  used on input line 375.
 (pdftex.def)             Requested size: 446.26582pt x 355.42279pt.
-<Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf, id=300, 470.553pt x 532.71924pt>
-File: Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf Graphic file (type pdf)
-<use Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>
-Package pdftex.def Info: Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf  used on input line 382.
+<VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf, id=300, 470.553pt x 532.71924pt>
+File: VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf Graphic file (type pdf)
+<use VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>
+Package pdftex.def Info: VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf  used on input line 382.
 (pdftex.def)             Requested size: 328.82707pt x 372.28314pt.
- [11] [12 <./Latex Created Diagrams/03_sequence_create_challenge.pdf>]
-<Latex Created Diagrams/01_domain_data_model.pdf, id=342, 798.96992pt x 366.29346pt>
-File: Latex Created Diagrams/01_domain_data_model.pdf Graphic file (type pdf)
-<use Latex Created Diagrams/01_domain_data_model.pdf>
-Package pdftex.def Info: Latex Created Diagrams/01_domain_data_model.pdf  used on input line 399.
+ [11] [12 <./VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf>]
+<VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf, id=342, 798.96992pt x 366.29346pt>
+File: VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf Graphic file (type pdf)
+<use VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf>
+Package pdftex.def Info: VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf  used on input line 399.
 (pdftex.def)             Requested size: 446.26582pt x 204.59755pt.
- [13 <./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>] [14 <./Latex Created Diagrams/01_domain_data_model.pdf>] [15]
-<UserFeedbackWall.jpeg, id=416, 4047.12pt x 3035.34pt>
-File: UserFeedbackWall.jpeg Graphic file (type jpg)
-<use UserFeedbackWall.jpeg>
-Package pdftex.def Info: UserFeedbackWall.jpeg  used on input line 450.
+ [13 <./VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf>] [14 <./VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf>] [15]
+<VariousDiagrams/UserFeedbackWall.jpeg, id=416, 4047.12pt x 3035.34pt>
+File: VariousDiagrams/UserFeedbackWall.jpeg Graphic file (type jpg)
+<use VariousDiagrams/UserFeedbackWall.jpeg>
+Package pdftex.def Info: VariousDiagrams/UserFeedbackWall.jpeg  used on input line 450.
 (pdftex.def)             Requested size: 187.89914pt x 140.89174pt.
- [16 <./UserFeedbackWall.jpeg>] [17] [18]
-<OpenWebUI_example.jpg, id=439, 3394.6825pt x 2025.5675pt>
-File: OpenWebUI_example.jpg Graphic file (type jpg)
-<use OpenWebUI_example.jpg>
-Package pdftex.def Info: OpenWebUI_example.jpg  used on input line 528.
+ [16 <./VariousDiagrams/UserFeedbackWall.jpeg>] [17] [18]
+<VariousDiagrams/OpenWebUI_example.jpg, id=439, 3394.6825pt x 2025.5675pt>
+File: VariousDiagrams/OpenWebUI_example.jpg Graphic file (type jpg)
+<use VariousDiagrams/OpenWebUI_example.jpg>
+Package pdftex.def Info: VariousDiagrams/OpenWebUI_example.jpg  used on input line 528.
 (pdftex.def)             Requested size: 234.8775pt x 140.1352pt.
- [19 <./OpenWebUI_example.jpg>]
-<AppPhotos/sidequest_appstorepage.png, id=450, 644.4075pt x 1394.20876pt>
-File: AppPhotos/sidequest_appstorepage.png Graphic file (type png)
-<use AppPhotos/sidequest_appstorepage.png>
-Package pdftex.def Info: AppPhotos/sidequest_appstorepage.png  used on input line 569.
+ [19 <./VariousDiagrams/OpenWebUI_example.jpg>]
+<VariousDiagrams/sidequest_appstorepage.png, id=450, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/sidequest_appstorepage.png Graphic file (type png)
+<use VariousDiagrams/sidequest_appstorepage.png>
+Package pdftex.def Info: VariousDiagrams/sidequest_appstorepage.png  used on input line 569.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Map.PNG, id=451, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_Map.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_Map.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Map.PNG  used on input line 575.
+<VariousDiagrams/Sidequest_Map.PNG, id=451, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_Map.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_Map.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_Map.PNG  used on input line 575.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_Quests.PNG, id=452, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_Quests.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_Quests.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Quests.PNG  used on input line 588.
+<VariousDiagrams/Sidequest_Quests.PNG, id=452, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_Quests.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_Quests.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_Quests.PNG  used on input line 588.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_ChallengeCreation.PNG, id=453, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_ChallengeCreation.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_ChallengeCreation.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_ChallengeCreation.PNG  used on input line 594.
+<VariousDiagrams/Sidequest_ChallengeCreation.PNG, id=453, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_ChallengeCreation.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_ChallengeCreation.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_ChallengeCreation.PNG  used on input line 594.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
- [20] [21 <./AppPhotos/sidequest_appstorepage.png> <./AppPhotos/Sidequest_Map.PNG>] [22 <./AppPhotos/Sidequest_Quests.PNG> <./AppPhotos/Sidequest_ChallengeCreation.PNG>]
-<AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG, id=470, 644.4075pt x 1394.20876pt>
-File: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG Graphic file (type png)
-<use AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG>
-Package pdftex.def Info: AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG  used on input line 619.
+ [20] [21 <./VariousDiagrams/sidequest_appstorepage.png> <./VariousDiagrams/Sidequest_Map.PNG>] [22 <./VariousDiagrams/Sidequest_Quests.PNG> <./VariousDiagrams/Sidequest_ChallengeCreation.PNG>]
+<VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG, id=470, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG Graphic file (type png)
+<use VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG>
+Package pdftex.def Info: VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG  used on input line 619.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
-<AppPhotos/Sidequest_voting.PNG, id=471, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_voting.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_voting.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_voting.PNG  used on input line 625.
+<VariousDiagrams/Sidequest_voting.PNG, id=471, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_voting.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_voting.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_voting.PNG  used on input line 625.
 (pdftex.def)             Requested size: 225.4804pt x 487.83145pt.
- [23] [24 <./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG> <./AppPhotos/Sidequest_voting.PNG>]
-<AppPhotos/Sidequest_Share.PNG, id=493, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_Share.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_Share.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Share.PNG  used on input line 650.
+ [23] [24 <./VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG> <./VariousDiagrams/Sidequest_voting.PNG>]
+<VariousDiagrams/Sidequest_Share.PNG, id=493, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_Share.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_Share.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_Share.PNG  used on input line 650.
 (pdftex.def)             Requested size: 150.32504pt x 325.23515pt.
 
 Underfull \hbox (badness 2142) in paragraph at lines 651--651
 []\T1/lmr/m/n/12 Figure 18: []Quest shar-ing
  []
 
-<AppPhotos/Sidequest_Friends.PNG, id=494, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_Friends.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_Friends.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Friends.PNG  used on input line 656.
+<VariousDiagrams/Sidequest_Friends.PNG, id=494, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_Friends.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_Friends.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_Friends.PNG  used on input line 656.
 (pdftex.def)             Requested size: 150.32504pt x 325.23515pt.
-<AppPhotos/Sidequest_Profile.PNG, id=495, 644.4075pt x 1394.20876pt>
-File: AppPhotos/Sidequest_Profile.PNG Graphic file (type png)
-<use AppPhotos/Sidequest_Profile.PNG>
-Package pdftex.def Info: AppPhotos/Sidequest_Profile.PNG  used on input line 662.
+<VariousDiagrams/Sidequest_Profile.PNG, id=495, 644.4075pt x 1394.20876pt>
+File: VariousDiagrams/Sidequest_Profile.PNG Graphic file (type png)
+<use VariousDiagrams/Sidequest_Profile.PNG>
+Package pdftex.def Info: VariousDiagrams/Sidequest_Profile.PNG  used on input line 662.
 (pdftex.def)             Requested size: 150.32504pt x 325.23515pt.
-[25 <./AppPhotos/Sidequest_Share.PNG> <./AppPhotos/Sidequest_Friends.PNG> <./AppPhotos/Sidequest_Profile.PNG>]
+[25 <./VariousDiagrams/Sidequest_Share.PNG> <./VariousDiagrams/Sidequest_Friends.PNG> <./VariousDiagrams/Sidequest_Profile.PNG>]
 Overfull \hbox (1.83687pt too wide) in paragraph at lines 679--679
 \T1/lmr/m/n/12 Abidin, Crys-tal. ^^PVis-i-bil-ity Labour: En-gag-ing with In-flu-encers' Fash-ion Brands and #OOTD
  []
@@ -855,14 +855,14 @@ Overfull \hbox (122.87662pt too wide) in paragraph at lines 692--692
 ] [27
 
 ] [28] [29]
-<TechStackChart.jpg, id=524, 1559.8275pt x 1009.7725pt>
-File: TechStackChart.jpg Graphic file (type jpg)
-<use TechStackChart.jpg>
-Package pdftex.def Info: TechStackChart.jpg  used on input line 734.
+<VariousDiagrams/TechStackChart.jpg, id=524, 1559.8275pt x 1009.7725pt>
+File: VariousDiagrams/TechStackChart.jpg Graphic file (type jpg)
+<use VariousDiagrams/TechStackChart.jpg>
+Package pdftex.def Info: VariousDiagrams/TechStackChart.jpg  used on input line 734.
 (pdftex.def)             Requested size: 328.82707pt x 212.8597pt.
  [30
 
- <./TechStackChart.jpg>] (./main.aux)
+ <./VariousDiagrams/TechStackChart.jpg>] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -872,14 +872,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  22287 strings out of 467525
- 415847 string characters out of 5418983
+ 417270 string characters out of 5418983
  806152 words of memory out of 5000000
  50676 multiletter control sequences out of 15000+600000
  693991 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,13n,104p,1354b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,104p,1365b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (36 pages, 34967322 bytes).
+Output written on main.pdf (36 pages, 34967390 bytes).
 PDF statistics:
  621 PDF objects out of 1000 (max. 8388607)
  497 compressed objects within 5 object streams

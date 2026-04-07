@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,fit}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{figure}[!htbp]
+  \centering
+  \definecolor{sqorange}{HTML}{FF6B35}
+  \definecolor{sqcoral}{HTML}{FFD9CC}
+  \definecolor{sqpeach}{HTML}{FFE9D6}
+  \definecolor{sqmint}{HTML}{DDF3E4}
+  \definecolor{sqsky}{HTML}{DCEEFE}
+  \definecolor{sqlav}{HTML}{E9E2FF}
+  \definecolor{sqnotea}{HTML}{FFF4EE}
+  \definecolor{sqnoteb}{HTML}{EEF7FF}
+
+  \resizebox{\linewidth}{!}{%
+  \begin{tikzpicture}[
+    font=\sffamily,
+    box/.style={draw=sqorange!80!black, text=black, rounded corners=6pt, minimum width=34mm, minimum height=12mm, align=center, line width=0.45pt},
+    note/.style={draw=sqorange!65!black, rounded corners=6pt, inner xsep=6pt, inner ysep=4pt, align=left, line width=0.4pt},
+    arrow/.style={-Latex, thick, draw=sqorange!85!black},
+    node distance=14mm
+  ]
+
+  \node[box, fill=sqcoral] (design) {Design};
+  \node[box, fill=sqpeach, right=of design] (dev) {Development};
+  \node[box, fill=sqmint, right=of dev] (test) {Testing};
+  \node[box, fill=sqsky, right=of test] (deploy) {Deployment};
+  \node[box, fill=sqlav, right=of deploy] (feedback) {User Feedback};
+
+  \draw[arrow] (design) -- (dev);
+  \draw[arrow] (dev) -- (test);
+  \draw[arrow] (test) -- (deploy);
+  \draw[arrow] (deploy) -- (feedback);
+
+  \draw[arrow] (feedback.south) .. controls +(0,-14mm) and +(0,-14mm) .. (design.south);
+
+  \node[draw=sqorange!70!black, dashed, rounded corners=10pt, fit=(design)(dev)(test)(deploy)(feedback), inner sep=9mm] (sprint) {};
+  \node[fill=white, text=sqorange!85!black, inner sep=2pt, font=\bfseries\small] at ([yshift=7mm]sprint.north) {1-week Sprint (repeat weekly)};
+
+  \node[note, fill=sqnotea, below=20mm of test, anchor=north] (testflight) {\textbf{TestFlight with real users}\\
+  \footnotesize
+  \begin{tabular}{@{}l@{}}
+  - User journeys\\
+  - Bugs documentation
+  \end{tabular}};
+  \draw[arrow] (deploy.south) -- ++(0,-6mm) -| (testflight.north);
+
+  \node[note, fill=sqnoteb, below=20mm of feedback, anchor=north] (backlog) {\textbf{Feedback $\rightarrow$ Backlog}\\
+  \footnotesize
+  \begin{tabular}{@{}l@{}}
+  - Shared issue tracking doc \\
+  - Prioritize fixes + next features
+  \end{tabular}};
+  \draw[arrow] (feedback.south) -- ++(0,-6mm) -- (backlog.north);
+
+  \end{tikzpicture}%
+  }
+  \caption[Agile Dev]{Agile manifesto-inspired workflow (1 week cycle).}
+  \label{fig:agile-cycle}
+\end{figure}
+
+\end{document}
+

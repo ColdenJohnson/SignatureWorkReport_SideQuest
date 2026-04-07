@@ -1,8 +1,8 @@
-PWD /Users/colden/Downloads/Signature Work
+PWD /Users/colden/Documents/SigWork/SignatureWork_Final
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/colden/Downloads/Signature Work/main.tex
+INPUT /Users/colden/Documents/SigWork/SignatureWork_Final/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -293,11 +293,11 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu4f.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/arphic/gbsnu/gbsnu5b.tfm
-INPUT ./SideQuestUserFlowDiagram.png
-INPUT ./SideQuestUserFlowDiagram.png
-INPUT ./SideQuestUserFlowDiagram.png
-INPUT ./SideQuestUserFlowDiagram.png
-INPUT ./SideQuestUserFlowDiagram.png
+INPUT ./VariousDiagrams/SideQuestUserFlowDiagram.png
+INPUT ./VariousDiagrams/SideQuestUserFlowDiagram.png
+INPUT ./VariousDiagrams/SideQuestUserFlowDiagram.png
+INPUT ./VariousDiagrams/SideQuestUserFlowDiagram.png
+INPUT ./VariousDiagrams/SideQuestUserFlowDiagram.png
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -315,100 +315,100 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT ./SideQuestArchitectureDiagram.png
-INPUT ./SideQuestArchitectureDiagram.png
-INPUT ./SideQuestArchitectureDiagram.png
-INPUT ./SideQuestArchitectureDiagram.png
-INPUT ./SideQuestArchitectureDiagram.png
+INPUT ./VariousDiagrams/SideQuestArchitectureDiagram.png
+INPUT ./VariousDiagrams/SideQuestArchitectureDiagram.png
+INPUT ./VariousDiagrams/SideQuestArchitectureDiagram.png
+INPUT ./VariousDiagrams/SideQuestArchitectureDiagram.png
+INPUT ./VariousDiagrams/SideQuestArchitectureDiagram.png
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
-INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
-INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
-INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
-INPUT ./Latex Created Diagrams/08_navigation_graph.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/08_navigation_graph.pdf
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
-INPUT ./Latex Created Diagrams/03_sequence_create_challenge.pdf
-INPUT ./Latex Created Diagrams/03_sequence_create_challenge.pdf
-INPUT ./Latex Created Diagrams/03_sequence_create_challenge.pdf
-INPUT ./Latex Created Diagrams/03_sequence_create_challenge.pdf
-INPUT ./Latex Created Diagrams/03_sequence_create_challenge.pdf
-INPUT ./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
-INPUT ./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
-INPUT ./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
-INPUT ./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
-INPUT ./Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
-INPUT ./Latex Created Diagrams/01_domain_data_model.pdf
-INPUT ./Latex Created Diagrams/01_domain_data_model.pdf
-INPUT ./Latex Created Diagrams/01_domain_data_model.pdf
-INPUT ./Latex Created Diagrams/01_domain_data_model.pdf
-INPUT ./Latex Created Diagrams/01_domain_data_model.pdf
-INPUT ./UserFeedbackWall.jpeg
-INPUT ./UserFeedbackWall.jpeg
-INPUT ./UserFeedbackWall.jpeg
-INPUT ./UserFeedbackWall.jpeg
-INPUT ./UserFeedbackWall.jpeg
-INPUT ./OpenWebUI_example.jpg
-INPUT ./OpenWebUI_example.jpg
-INPUT ./OpenWebUI_example.jpg
-INPUT ./OpenWebUI_example.jpg
-INPUT ./OpenWebUI_example.jpg
-INPUT ./AppPhotos/sidequest_appstorepage.png
-INPUT ./AppPhotos/sidequest_appstorepage.png
-INPUT ./AppPhotos/sidequest_appstorepage.png
-INPUT ./AppPhotos/sidequest_appstorepage.png
-INPUT ./AppPhotos/sidequest_appstorepage.png
-INPUT ./AppPhotos/Sidequest_Map.PNG
-INPUT ./AppPhotos/Sidequest_Map.PNG
-INPUT ./AppPhotos/Sidequest_Map.PNG
-INPUT ./AppPhotos/Sidequest_Map.PNG
-INPUT ./AppPhotos/Sidequest_Map.PNG
-INPUT ./AppPhotos/Sidequest_Quests.PNG
-INPUT ./AppPhotos/Sidequest_Quests.PNG
-INPUT ./AppPhotos/Sidequest_Quests.PNG
-INPUT ./AppPhotos/Sidequest_Quests.PNG
-INPUT ./AppPhotos/Sidequest_Quests.PNG
-INPUT ./AppPhotos/Sidequest_ChallengeCreation.PNG
-INPUT ./AppPhotos/Sidequest_ChallengeCreation.PNG
-INPUT ./AppPhotos/Sidequest_ChallengeCreation.PNG
-INPUT ./AppPhotos/Sidequest_ChallengeCreation.PNG
-INPUT ./AppPhotos/Sidequest_ChallengeCreation.PNG
-INPUT ./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG
-INPUT ./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG
-INPUT ./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG
-INPUT ./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG
-INPUT ./AppPhotos/SideQuest_ChallengeAppearsinQuests.PNG
-INPUT ./AppPhotos/Sidequest_voting.PNG
-INPUT ./AppPhotos/Sidequest_voting.PNG
-INPUT ./AppPhotos/Sidequest_voting.PNG
-INPUT ./AppPhotos/Sidequest_voting.PNG
-INPUT ./AppPhotos/Sidequest_voting.PNG
-INPUT ./AppPhotos/Sidequest_Share.PNG
-INPUT ./AppPhotos/Sidequest_Share.PNG
-INPUT ./AppPhotos/Sidequest_Share.PNG
-INPUT ./AppPhotos/Sidequest_Share.PNG
-INPUT ./AppPhotos/Sidequest_Share.PNG
-INPUT ./AppPhotos/Sidequest_Friends.PNG
-INPUT ./AppPhotos/Sidequest_Friends.PNG
-INPUT ./AppPhotos/Sidequest_Friends.PNG
-INPUT ./AppPhotos/Sidequest_Friends.PNG
-INPUT ./AppPhotos/Sidequest_Friends.PNG
-INPUT ./AppPhotos/Sidequest_Profile.PNG
-INPUT ./AppPhotos/Sidequest_Profile.PNG
-INPUT ./AppPhotos/Sidequest_Profile.PNG
-INPUT ./AppPhotos/Sidequest_Profile.PNG
-INPUT ./AppPhotos/Sidequest_Profile.PNG
-INPUT ./TechStackChart.jpg
-INPUT ./TechStackChart.jpg
-INPUT ./TechStackChart.jpg
-INPUT ./TechStackChart.jpg
-INPUT ./TechStackChart.jpg
+INPUT ./VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/03_sequence_create_challenge.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/04_sequence_global_duel_vote_token.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf
+INPUT ./VariousDiagrams/Latex Created Diagrams/01_domain_data_model.pdf
+INPUT ./VariousDiagrams/UserFeedbackWall.jpeg
+INPUT ./VariousDiagrams/UserFeedbackWall.jpeg
+INPUT ./VariousDiagrams/UserFeedbackWall.jpeg
+INPUT ./VariousDiagrams/UserFeedbackWall.jpeg
+INPUT ./VariousDiagrams/UserFeedbackWall.jpeg
+INPUT ./VariousDiagrams/OpenWebUI_example.jpg
+INPUT ./VariousDiagrams/OpenWebUI_example.jpg
+INPUT ./VariousDiagrams/OpenWebUI_example.jpg
+INPUT ./VariousDiagrams/OpenWebUI_example.jpg
+INPUT ./VariousDiagrams/OpenWebUI_example.jpg
+INPUT ./VariousDiagrams/sidequest_appstorepage.png
+INPUT ./VariousDiagrams/sidequest_appstorepage.png
+INPUT ./VariousDiagrams/sidequest_appstorepage.png
+INPUT ./VariousDiagrams/sidequest_appstorepage.png
+INPUT ./VariousDiagrams/sidequest_appstorepage.png
+INPUT ./VariousDiagrams/Sidequest_Map.PNG
+INPUT ./VariousDiagrams/Sidequest_Map.PNG
+INPUT ./VariousDiagrams/Sidequest_Map.PNG
+INPUT ./VariousDiagrams/Sidequest_Map.PNG
+INPUT ./VariousDiagrams/Sidequest_Map.PNG
+INPUT ./VariousDiagrams/Sidequest_Quests.PNG
+INPUT ./VariousDiagrams/Sidequest_Quests.PNG
+INPUT ./VariousDiagrams/Sidequest_Quests.PNG
+INPUT ./VariousDiagrams/Sidequest_Quests.PNG
+INPUT ./VariousDiagrams/Sidequest_Quests.PNG
+INPUT ./VariousDiagrams/Sidequest_ChallengeCreation.PNG
+INPUT ./VariousDiagrams/Sidequest_ChallengeCreation.PNG
+INPUT ./VariousDiagrams/Sidequest_ChallengeCreation.PNG
+INPUT ./VariousDiagrams/Sidequest_ChallengeCreation.PNG
+INPUT ./VariousDiagrams/Sidequest_ChallengeCreation.PNG
+INPUT ./VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG
+INPUT ./VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG
+INPUT ./VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG
+INPUT ./VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG
+INPUT ./VariousDiagrams/SideQuest_ChallengeAppearsinQuests.PNG
+INPUT ./VariousDiagrams/Sidequest_voting.PNG
+INPUT ./VariousDiagrams/Sidequest_voting.PNG
+INPUT ./VariousDiagrams/Sidequest_voting.PNG
+INPUT ./VariousDiagrams/Sidequest_voting.PNG
+INPUT ./VariousDiagrams/Sidequest_voting.PNG
+INPUT ./VariousDiagrams/Sidequest_Share.PNG
+INPUT ./VariousDiagrams/Sidequest_Share.PNG
+INPUT ./VariousDiagrams/Sidequest_Share.PNG
+INPUT ./VariousDiagrams/Sidequest_Share.PNG
+INPUT ./VariousDiagrams/Sidequest_Share.PNG
+INPUT ./VariousDiagrams/Sidequest_Friends.PNG
+INPUT ./VariousDiagrams/Sidequest_Friends.PNG
+INPUT ./VariousDiagrams/Sidequest_Friends.PNG
+INPUT ./VariousDiagrams/Sidequest_Friends.PNG
+INPUT ./VariousDiagrams/Sidequest_Friends.PNG
+INPUT ./VariousDiagrams/Sidequest_Profile.PNG
+INPUT ./VariousDiagrams/Sidequest_Profile.PNG
+INPUT ./VariousDiagrams/Sidequest_Profile.PNG
+INPUT ./VariousDiagrams/Sidequest_Profile.PNG
+INPUT ./VariousDiagrams/Sidequest_Profile.PNG
+INPUT ./VariousDiagrams/TechStackChart.jpg
+INPUT ./VariousDiagrams/TechStackChart.jpg
+INPUT ./VariousDiagrams/TechStackChart.jpg
+INPUT ./VariousDiagrams/TechStackChart.jpg
+INPUT ./VariousDiagrams/TechStackChart.jpg
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
